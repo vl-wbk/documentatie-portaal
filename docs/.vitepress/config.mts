@@ -19,7 +19,7 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: 'https://https://github.com/vl-wbk/documentatie-portaal/edit/develop/docs/:path'
+      pattern: 'https://github.com/vl-wbk/documentatie-portaal/edit/develop/docs/:path'
     },
 
     nav: [
