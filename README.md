@@ -36,7 +36,7 @@ cd documentatie
 npm install
 ```
 
-### Ontwikkelomgeving starter 
+### Ontwikkelomgeving starten
 
 ```bash
 npm run docs:dev
