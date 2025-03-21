@@ -11,7 +11,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     lastUpdated: {
-      text: 'Updated at',
+      text: 'Laatste aanpassing',
       formatOptions: {
         dateStyle: 'full',
         timeStyle: 'medium'
@@ -23,13 +23,22 @@ export default defineConfig({
     },
 
     nav: [
-      { text: 'Contributing', link: '' },
-      { text: 'Code of conduct', link: '' },
-      { text: 'LICENSE', link: '' }
+      { text: 'Contributing', link: '', 'target': '_blank' },
+      { text: 'Code of conduct', link: '', 'target': '_blank' },
+      { text: 'LICENSE', link: '', 'target': '_blank' }
     ],
 
     sidebar: [
       { text: 'Introductie', link: '/introductie' },
+
+      {
+        text: 'Gebruikers',
+        collapsed: true,
+        items: [
+            { text: 'Machtigingen', link: '/gebruikers/machtigingen' },
+        ]
+      },
+
     ],
 
     footer: {
