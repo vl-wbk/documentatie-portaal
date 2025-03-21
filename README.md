@@ -73,3 +73,5 @@ Heb je vragen of wil je bijdragen? Neem contact op via:
 
 - **GitHub Issues:**  Meld bugs en stel verbeteringen voor.
 - **GitHub Discussions:** Bespreek ideeën en stel vragen aan de community.
+
+🎉 Bedankt voor je interesse en bijdragen aan het Vlaams Woordenboek!
