@@ -39,6 +39,13 @@ export default defineConfig({
         ]
       },
 
+      {
+        text: 'Varia', 
+        collapsed: true, 
+        items: [
+          { text: 'Dataset releases', link: 'other/dataset-release-guideline', },
+        ]
+      }
     ],
 
     footer: {
