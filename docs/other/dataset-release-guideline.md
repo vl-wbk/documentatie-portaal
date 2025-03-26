@@ -41,7 +41,7 @@ Naast de algemene richtlijnen, introduceren we een specifieke conventie voor de 
 - Om een evenwichtige representatie te garanderen, zullen we afwisselend mannen en vrouwen selecteren.
 - Oneven datasetversies (v1, v3, v5, enz.) zullen de namen van mannelijke taalkundigen dragen.
 - Even datasetversies (v2, v4, v6, enz.) zullen de namen van vrouwelijke taalkundigen dragen.
-- Voorbeelden van namen die gebruikt kunnen worden zijn: Hugo Claus, Lize Spit, , Tom Lanoye, Maud Vanhauwaert en vele anderen.
+- Voorbeelden van namen die gebruikt kunnen worden zijn: Hugo Claus, Lize Spit, Tom Lanoye, Maud Vanhauwaert en vele anderen.
 
 
 #### Selectieproces 
