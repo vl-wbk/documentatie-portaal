@@ -1,6 +1,6 @@
 name: "🐛 Bug rapportering"
 description: "Meld een probleem in de documentatie"
-labels: [fout-rapportering]
+labels: ['fout rapportering']
 body:
   - type: markdown
     attributes:
