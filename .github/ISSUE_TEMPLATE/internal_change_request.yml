@@ -1,0 +1,44 @@
+name: "🏗️ Intern Wijzigingsverzoek"
+description: "Verzoek om een interne wijziging in de documentatiestructuur of technische details"
+labels: ['internal']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Dank je voor je verzoek! Vul de onderstaande velden in om duidelijk te maken welke wijziging nodig is.
+
+  - type: textarea
+    id: beschrijving-wijziging
+    attributes:
+      label: "🔧 Beschrijving van de wijziging"
+      description: "Wat moet er intern worden aangepast of herschreven?"
+      placeholder: "Bijv. Verander de structuur van de sectie over API-documentatie."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reden-wijziging
+    attributes:
+      label: "❓ Reden voor de wijziging"
+      description: "Waarom is deze aanpassing nodig?"
+      placeholder: "Bijv. De huidige uitleg is verouderd en bevat onjuiste informatie."
+    validations:
+      required: true
+
+  - type: textarea
+    id: mogelijke-impact
+    attributes:
+      label: "⚠️ Mogelijke impact"
+      description: "Welke delen van de documentatie worden hierdoor beïnvloed?"
+      placeholder: "Bijv. De secties over authenticatie en validatie kunnen verouderd zijn."
+    validations:
+      required: true
+
+  - type: textarea
+    id: extra-informatie
+    attributes:
+      label: "📎 Extra informatie"
+      description: "Links, referenties of andere relevante details."
+      placeholder: "Bijv. Zie de interne wiki voor gerelateerde richtlijnen."
+    validations:
+      required: false

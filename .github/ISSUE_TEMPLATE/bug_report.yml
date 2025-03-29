@@ -1,0 +1,56 @@
+name: "🐛 Bug rapportering"
+description: "Meld een probleem in de documentatie"
+labels: ['fout rapportering']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Dank je voor het melden van een probleem in de documentatie! Vul de onderstaande velden zo volledig mogelijk in.
+
+  - type: input
+    id: probleem-beschrijving
+    attributes:
+      label: "📌 Beschrijving van het probleem"
+      description: "Duidelijk en beknopt beschrijven wat het probleem is."
+      placeholder: "Bijv. Een typefout in de documentatie"
+    validations:
+      required: true
+
+  - type: input
+    id: relevante-pagina
+    attributes:
+      label: "📄 Relevante pagina(’s)"
+      description: "Geef de URL of bestandsnaam van de documentatiepagina waar het probleem zich voordoet."
+      placeholder: "Bijv. https://docs.example.com/sectie"
+    validations:
+      required: true
+
+  - type: textarea
+    id: stappen-reproduceren
+    attributes:
+      label: "🔄 Stappen om te reproduceren"
+      description: "Beschrijf stap voor stap hoe het probleem kan worden gereproduceerd."
+      placeholder: |
+        1. Ga naar '...'
+        2. Klik op '...'
+        3. Bekijk het resultaat
+    validations:
+      required: true
+
+  - type: textarea
+    id: verwacht-gedrag
+    attributes:
+      label: "✅ Verwacht gedrag"
+      description: "Beschrijf wat je had verwacht dat er zou gebeuren."
+      placeholder: "Bijv. De pagina zou correct geladen moeten worden zonder fouten."
+    validations:
+      required: true
+
+  - type: textarea
+    id: extra-informatie
+    attributes:
+      label: "📷 Screenshots of extra informatie"
+      description: "Voeg screenshots of aanvullende context toe als dat helpt bij het begrijpen van het probleem."
+      placeholder: "Bijv. Screenshot van de foutmelding"
+    validations:
+      required: false
