@@ -7,7 +7,7 @@ body:
       value: |
         Dank je voor het verzoek om nieuwe documentatie! Vul de onderstaande velden in om je voorstel te verduidelijken.
 
-  - type: input
+  - type: textarea
     id: onderwerp-documentatie
     attributes:
       label: "📚 Onderwerp van de documentatie"
