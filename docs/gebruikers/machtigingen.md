@@ -1,8 +1,3 @@
----
-outline: deep
----
-
-
 # Rollen en Machtigingen in het VL. Woordenboek 
 
 Het Vlaams Woordenboek hanteert een gelaagd machtigingssysteem waarin elke rol specifieke verantwoordelijkheden en mogelijkheden heeft bvinnen het platform. 
