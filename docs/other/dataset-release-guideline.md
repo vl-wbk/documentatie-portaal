@@ -1,7 +1,3 @@
---- 
-outline: deep 
---- 
-
 # Richtlijnen voor het benoemen van de datasetreleases 
 
 Deze documentatie beschrijft de richtlijnen voor het consistent en duidelijk benoemen van datasetreleases.

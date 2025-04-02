@@ -1,0 +1,35 @@
+name: "❓ Vraag / Onzekerheid"
+description: "Vraag om verduidelijking over een specifiek documentatiegedeelte"
+labels: ['vraagstelling']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Dank je voor je vraag! Vul de onderstaande velden in om ons te helpen je beter te ondersteunen.
+
+  - type: textarea
+    id: vraag
+    attributes:
+      label: "❓ Wat is je vraag?"
+      description: "Beschrijf je vraag of waarover je verduidelijking nodig hebt."
+      placeholder: "Bijv. Hoe deactiveer ik gebruikers? Want de documentatie is onduidelijk. "
+    validations:
+      required: true
+
+  - type: input
+    id: relevante-sectie
+    attributes:
+      label: "📄 Relevante sectie(s)"
+      description: "Geef aan welke documentatiepagina of sectie je bedoelt."
+      placeholder: "Bijv. https://docs.example.com/sectie"
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra-informatie
+    attributes:
+      label: "📎 Extra informatie"
+      description: "Eventuele context, links of voorbeelden die kunnen helpen."
+      placeholder: "Bijv. Ik heb issue #123 gelezen, maar ik begrijp nog steeds niet hoe ik het moet implementeren."
+    validations:
+      required: false

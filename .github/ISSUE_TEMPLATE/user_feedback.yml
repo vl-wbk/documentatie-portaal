@@ -1,0 +1,44 @@
+name: "💬 Feedback van Gebruikers"
+description: "Deel je ervaring met de documentatie"
+labels: ['feedback', 'UX']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Dank je voor je feedback! Vul de onderstaande velden in om ons te helpen de documentatie te verbeteren.
+
+  - type: textarea
+    id: wat-vond-je-goed
+    attributes:
+      label: "👍 Wat vond je goed?"
+      description: "Wat werkt goed in de documentatie?"
+      placeholder: "Bijv. De uitleg over de installatie was duidelijk en goed gestructureerd."
+    validations:
+      required: true
+
+  - type: textarea
+    id: wat-kan-beter
+    attributes:
+      label: "👎 Wat kan beter?"
+      description: "Waar heb je moeite mee gehad?"
+      placeholder: "Bijv. De voorbeelden in de sectie over webhooks waren niet volledig."
+    validations:
+      required: true
+
+  - type: textarea
+    id: eventuele-suggesties
+    attributes:
+      label: "💡 Eventuele suggesties"
+      description: "Hoe zou de documentatie verbeterd kunnen worden?"
+      placeholder: "Bijv. Voeg meer gedetailleerde voorbeelden toe voor beginners."
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra-opmerkingen
+    attributes:
+      label: "📋 Extra opmerkingen"
+      description: "Overige feedback of vragen."
+      placeholder: "Bijv. Ik heb geen antwoorden gevonden op mijn specifieke vraag."
+    validations:
+      required: false

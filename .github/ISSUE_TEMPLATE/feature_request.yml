@@ -1,0 +1,44 @@
+name: "✨ Feature Request"
+description: "Stel een verbetering of nieuwe functie voor in de documentatie"
+labels: ['verbetering']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Dank je voor je suggestie om de documentatie te verbeteren! Vul de onderstaande velden zo volledig mogelijk in.
+
+  - type: input
+    id: beschrijving-verbetering
+    attributes:
+      label: "📌 Beschrijving van de verbetering"
+      description: "Geef een korte en duidelijke uitleg van de gewenste wijziging."
+      placeholder: "Bijv. Voeg een extra sectie toe over installatie"
+    validations:
+      required: true
+
+  - type: textarea
+    id: reden-wijziging
+    attributes:
+      label: "💡 Reden voor de wijziging"
+      description: "Waarom is deze verbetering nuttig? Welke problemen lost het op?"
+      placeholder: "Bijv. De huidige documentatie mist uitleg over een belangrijke functie."
+    validations:
+      required: true
+
+  - type: textarea
+    id: mogelijke-oplossing
+    attributes:
+      label: "🛠️ Mogelijke oplossing"
+      description: "Heb je suggesties voor hoe dit verbeterd kan worden? Geef ze hier."
+      placeholder: "Bijv. Voeg een voorbeeldconfiguratie toe aan de documentatie."
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra-context
+    attributes:
+      label: "📎 Extra context"
+      description: "Voeg relevante context toe, zoals links naar gerelateerde issues of voorbeelden."
+      placeholder: "Bijv. Dit is gerelateerd aan issue #123."
+    validations:
+      required: false

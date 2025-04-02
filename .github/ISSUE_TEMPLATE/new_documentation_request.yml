@@ -1,0 +1,44 @@
+name: "📝 Verzoek om Nieuwe Documentatie"
+description: "Stel voor om een nieuw onderwerp te documenteren"
+labels: ['nieuwe content']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Dank je voor het verzoek om nieuwe documentatie! Vul de onderstaande velden in om je voorstel te verduidelijken.
+
+  - type: textarea
+    id: onderwerp-documentatie
+    attributes:
+      label: "📚 Onderwerp van de documentatie"
+      description: "Waarover zou de documentatie moeten gaan?"
+      placeholder: "Bijv. Hoe configureer je een webhook in de app?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: waarom-nodig
+    attributes:
+      label: "💡 Waarom is dit nodig?"
+      description: "Leg uit waarom dit nuttig zou zijn voor gebruikers."
+      placeholder: "Bijv. Gebruikers hebben moeite met het configureren van webhooks en er is geen duidelijke uitleg."
+    validations:
+      required: true
+
+  - type: textarea
+    id: mogelijke-bronnen
+    attributes:
+      label: "🔗 Mogelijke bronnen of referenties"
+      description: "Zijn er al bestaande documenten, codevoorbeelden of andere bronnen die kunnen helpen?"
+      placeholder: "Bijv. Zie voorbeeldconfiguratie in issue #123."
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra-opmerkingen
+    attributes:
+      label: "📋 Extra opmerkingen"
+      description: "Eventuele andere overwegingen of details."
+      placeholder: "Bijv. Dit onderwerp komt vaak ter sprake in de community."
+    validations:
+      required: false
