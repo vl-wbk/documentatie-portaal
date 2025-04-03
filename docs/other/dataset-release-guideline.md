@@ -29,11 +29,11 @@ De volgende elementen moeten worden opgenomen in de naam van een datasetrelease,
 
 ### Aanvullend richtlijnen omtrent de datasetnamen 
 
-Naast de algemene richtlijnen, introduceren we een specifieke conventie voor de datasetnaam zelf, om de rijke geschiedenis van de Vlaamse taalkunde te eren:
+Naast de algemene richtlijnen, introduceren we een specifieke conventie voor de datasetnaam zelf, om de rijke geschiedenis van de Nederlandse taal in Vlaanderen te eren:
 
 #### Gebruik van Vlaamse Taalkundige Namen
 
-- De basisnaam van de dataset zal de naam zijn van een persoon die een significante bijdragen heeft geleverd aan de Vlaamse taalkundigen kringen. 
+- De basisnaam van de dataset zal de naam zijn van een persoon die een significante bijdragen heeft geleverd aan de taal in Vlaanderen. 
 - Om een evenwichtige representatie te garanderen, zullen we afwisselend mannen en vrouwen selecteren.
 - Oneven datasetversies (v1, v3, v5, enz.) zullen de namen dragen van mannen die iets voor de Nederlandse taal hebben betekend.
 - Even datasetversies (v2, v4, v6, enz.) zullen de namen dragen van vrouwen die iets voor de Nederlandse taal hebben betekend.
