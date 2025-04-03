@@ -40,6 +40,14 @@ export default defineConfig({
       },
 
       {
+        text: 'Developer documentatie',
+        collapsed: true,
+        items: [
+            { text: 'Featurebeheer', link: '/technical/feature-manager' },
+        ]
+      },
+
+      {
         text: 'Varia', 
         collapsed: true, 
         items: [

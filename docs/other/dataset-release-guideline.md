@@ -2,7 +2,7 @@
 
 Deze documentatie beschrijft de richtlijnen voor het consistent en duidelijk benoemen van datasetreleases.
 Een gestandaardiseerde naamgevingsconventie is essentieel voor het beheer, de distributie en het gebruik van datasets. 
-Het zorgt ervoor dat gebruikers of andere belanghebbende gemakkelijk de inhoud, versie en andere relevante informatie van een dataset kunnen identificeren.
+Het zorgt ervoor dat gebruikers of andere belanghebbenden gemakkelijk de inhoud, versie en andere relevante informatie van een dataset kunnen identificeren.
 
 ## Doel 
 
@@ -29,14 +29,14 @@ De volgende elementen moeten worden opgenomen in de naam van een datasetrelease,
 
 ### Aanvullend richtlijnen omtrent de datasetnamen 
 
-Naast de algemene richtlijnen, introduceren we een specifieke conventie voor de datasetnaam zelf, om de rijke geschiedenis van de Vlaamse taalkunde te eren:
+Naast de algemene richtlijnen, introduceren we een specifieke conventie voor de datasetnaam zelf, om de rijke geschiedenis van de Nederlandse taal in Vlaanderen te eren:
 
 #### Gebruik van Vlaamse Taalkundige Namen
 
-- De basisnaam van de dataset zal de naam zijn van een persoon die een significante bijdragen heeft geleverd aan de Vlaamse taalkundigen kringen. 
+- De basisnaam van de dataset zal de naam zijn van een persoon die een significante bijdragen heeft geleverd aan de taal in Vlaanderen. 
 - Om een evenwichtige representatie te garanderen, zullen we afwisselend mannen en vrouwen selecteren.
-- Oneven datasetversies (v1, v3, v5, enz.) zullen de namen van mannelijke taalkundigen dragen.
-- Even datasetversies (v2, v4, v6, enz.) zullen de namen van vrouwelijke taalkundigen dragen.
+- Oneven datasetversies (v1, v3, v5, enz.) zullen de namen dragen van mannen die iets voor de Nederlandse taal hebben betekend.
+- Even datasetversies (v2, v4, v6, enz.) zullen de namen dragen van vrouwen die iets voor de Nederlandse taal hebben betekend.
 - Voorbeelden van namen die gebruikt kunnen worden zijn: Hugo Claus, Lize Spit, Tom Lanoye, Maud Vanhauwaert en vele anderen.
 
 
@@ -60,8 +60,8 @@ Naast de algemene richtlijnen, introduceren we een specifieke conventie voor de 
 
 #### Belang van deze Conventie:
 
-- Deze conventie eert de rijke geschiedenis van de Vlaamse taalkunde en brengt hulde aan degenen die hebben bijgedragen aan de ontwikkeling ervan.
-- Het voegt een culturele dimensie toe aan onze datasets en bevordert het bewustzijn van ons taalkundig erfgoed.
+- Deze conventie eert de rijke geschiedenis van de Vlaamse taal- en letterkunde en brengt hulde aan degenen die hebben bijgedragen aan de ontwikkeling ervan.
+- Het voegt een culturele dimensie toe aan onze datasets en bevordert het bewustzijn van ons talige erfgoed.
 - Het geeft een unieke identiteit aan de datasets.
 
 ## Implementatie
