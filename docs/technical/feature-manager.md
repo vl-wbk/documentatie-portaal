@@ -4,9 +4,8 @@ outline: deep
 
 # Beheer van feature flags in de CLI van het Vl. woordenboek
 
-De `feature:manager` artisan command wordt gebruikt om feature flags binnen het Vlaams Woordenboek te beheren. Hiermee kun je features activeren, deactiveren of de status van een feature controleren. Dit is handig als je verschillende functies binnen je applicatie wilt aan- of uitschaken op basis van omgevingsvoorwaarden. 
-Als ook bv dat er zich ground-stopping bugs voordoen in de productie omgeving van de applicatie. 
-Zo kun je bv tijdelijk de feature deactiveren tot de volgende deployment waar de fies voor de issues in geimplementeerd zijn. Hieronder vind u de inhoudstafel ter referentie:
+De _`feature:manager` artisan command_ wordt gebruikt om feature flags binnen het Vlaams Woordenboek te beheren. Hiermee kun je features activeren, deactiveren of de status van een feature controleren. Dit is handig als je verschillende functies binnen je applicatie wilt aan- of uitschaken op basis van omgevingsvoorwaarden, bijvoorbeeld als er ground-stopping bugs zitten in de productieomgeving van de applicatie. 
+Zo kun je bijv. tijdelijk de feature deactiveren tot de volgende deployment waar de fies voor de issues in geimplementeerd zijn. Hieronder vind je de inhoudstafel ter referentie:
 
 [[toc]]
 
@@ -24,13 +23,13 @@ De volgende parameters zaijn beschikbaar in het commando:
 
 #### `{actie}`
 
-- `enable`: Hiermee schakel je de opgegeven feature globaal in, zodat deze voor alle gebruikers beschikbaar is. Dit is handig wanneer je bv. een nieuwe functie hebt getest en deze nu in productie wilt zetten.
-- `disable`: Dit schakelt de opgegeven feature globaal uit, waardoor deze voor alle gebruikers niet meer toegankelijk is. Dit kan nodig zijn als er problemen zijn met een feature of als je deze tijdelijk wilt uitschakelen.
+- `enable`: Hiermee schakel je de opgegeven feature globaal in, zodat die voor alle gebruikers beschikbaar is. Dit is handig wanneer je bijv. een nieuwe functie hebt getest en deze nu in productie wilt zetten.
+- `disable`: Dit schakelt de opgegeven feature globaal uit, waardoor die voor geen enkele gebruiker meer toegankelijk is. Dit kan nodig zijn als er problemen zijn met een feature of als je die tijdelijk wilt uitschakelen.
 - `status`: Met deze actie controleer je de huidige status van een feature. Je kunt snel zien of een functie actief is of niet, wat nuttig is voor het bijhouden van feature flags binnen je project.
 
 #### `{feature}`
 
-Dit is de naam van de feature die je wilt beheren. Het moet overeenkomen met de feature class in de `App\Features\` namespace. Zorg ervoor dat de naam correct is gespeld om founten te voorkomen.
+Dit is de naam van de feature die je wilt beheren. Het moet overeenkomen met de feature class in de `App\Features\` namespace. Zorg ervoor dat de naam correct is gespeld om fouten te voorkomen.
 
 ## Beschikbare features
 
@@ -46,25 +45,25 @@ Hier zijn enkele voorbeelden van hoe je de `feature:manager` command kunt gebrui
 
 ### Feature inschakelen 
 
-Om een feature in te schakelen, gebruik je het `enable` commando met de naam van de feature:
+Om een feature in te schakelen gebruik je het `enable`-commando met de naam van de feature:
 
 ```bash
 php artisan feature:manager enable DocumentationButtons
 ```
 
-**Wat doet dit:** Dit activeerd de `DocumentationButtons` feature globaal voor alle gebruikers, zodat de gebruikers vanaf de rol de knoppen kunnen zien en gebruiken die linken naar de project documentatie.
+**Wat doet dit:** Dit activeert de `DocumentationButtons` feature globaal voor alle gebruikers, zodat de gebruikers vanaf de rol de knoppen die linken naar de project documentatie, kunnen zien en gebruiken.
 
 ### Feature uitschakelen 
 
-Om een feature uit te schakelen, gebruik je het `disable` commando met de naam van de feature:
+Om een feature uit te schakelen gebruik je het `disable` commando met de naam van de feature:
 
 ```bash 
 php artisan feature:manager disable DocumentationButtons
 ```
 
-**Wat dit doet:** Dit dactiveert de feature `DocumentationButtons`, zodat gebruikers vanaf de rol geen verwijzingsknoppen meer zien naar het documentatie portaal van het vlaams woordenboek. 
+**Wat dit doet:** Dit deactiveert de feature `DocumentationButtons`, zodat gebruikers vanaf de rol geen verwijzingsknoppen meer zien naar het documentatieportaal van het Vlaams Woordenboek. 
 
-### Feature status controleren 
+### Feature-status controleren 
 
 Om te controleren of een feature actief is, gebruik je het `status` commando:
 
@@ -72,7 +71,7 @@ Om te controleren of een feature actief is, gebruik je het `status` commando:
 php artisan feature:manager status DocumentationButtons 
 ```
 
-**Wat dit doet:** Dit geeft terug of de feature `DocumentationButtons` momenteel actief of inactief is. Dit is nuttig voor ontwikkelaars die de status van hun features willen bijhouden zonder in de code hoeven te kijken.
+**Wat dit doet:** Dit geeft weer of de feature `DocumentationButtons` momenteel actief of inactief is. Dit is nuttig voor ontwikkelaars die de status van hun features willen bijhouden zonder in de code te hoeven kijken.
 
 ## Feature class definities 
 
@@ -83,11 +82,11 @@ Zorg ervoor dat je de naamgeving en namespace consistent houdt om problemen te v
 
 ## Opruiming van de cache 
 
-Elke keer wanneer je een feature in- of uitschakelt, wordt de feature cache automatisch geleegd. Dit betekent dat de wijzigingen onmiddelijk van kracht worden en gebruikers de nieuwe status van de feature zien zonder dat ze de applicatie hoeven te herladen.
+Elke keer wanneer je een feature in- of uitschakelt, wordt de featurecache automatisch geleegd. Dit betekent dat de wijzigingen onmiddelijk van kracht worden en gebruikers de nieuwe status van de feature zien zonder dat ze de applicatie hoeven te herladen.
 
 ## Mogelijke fouten 
 
-Als je een ongeldige actie invoert (zoals iets anders dan `enable`, `disable` of `status`), krijg je een fountmelding. Dit helpt je om snel fouten te corrigeren en de juiste acties te ondernemen.
+Als je een ongeldige actie invoert (zoals iets anders dan `enable`, `disable` of `status`), krijg je een foutmelding. Dit helpt je om snel fouten te corrigeren en de juiste acties te ondernemen.
 
 Voorbeeld van de foutmelding:
 
@@ -97,7 +96,7 @@ Invalid action. Use "enable", "disable", or "status"
 
 ## Laravel pennant
 
-De features zijn opgebouwd met de [laravel/pennant](https://github.com/laravel/pennant) package je kunt de [documentatie](https://laravel.com/docs/12.x/pennant) doornemen om te leren hoe de package werkt en hoe je nieuwe features toevoegd aan de applicatie. 
+De features zijn opgebouwd met de [laravel/pennant](https://github.com/laravel/pennant) package. Je kunt de [documentatie](https://laravel.com/docs/12.x/pennant) doornemen om te leren hoe de package werkt en hoe je nieuwe features toevoegt aan de applicatie. 
 
 ## Conclusie
 
