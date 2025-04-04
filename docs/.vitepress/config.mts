@@ -61,6 +61,10 @@ export default defineConfig({
       }
     ],
 
+    search: {
+      provider: 'local',
+    },
+
     footer: {
       message: 'Vrijgegeven onder de MIT Licentie', 
       copyright: 'Copyright © 2024-heden Vlaams-Woordenboek',
