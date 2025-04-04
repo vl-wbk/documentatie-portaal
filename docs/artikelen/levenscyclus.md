@@ -115,8 +115,36 @@ stateDiagram-v2
     GOEDKEURING --> REDACTIE: Publicatie afwijzen
     GOEDKEURING --> PUBLICATIE: Publiceren 
     GOEDKEURING --> ARCHIEF: Archiveren
+    GOEDKEURING --> [*]: verwijderen
 ```
 
 - **Publiceren** als het artikel vordoet aan de kwaliteitsnormen. 
 - **Publicatie afwijzen** als er nog verdere aanpassing nodig zijn. 
 - **Archiveren** als publicatie niet wenselijk is maar toch word bijgehouden omtrent verschillende redenen.
+- **Verwijderen**, mites de gebruiker de rol heeft van administrator of ontwikkelaar.
+
+## Ontsluiting/Published: Publicatie 
+
+Zodra een artikel is goedgekeurd, wordt het gepubliceerd en toegankelijk gemaakt voor eindgebruikers. Dit markeert de afronding van het redactionele proces. 
+De metadata blijven grotendeels ongewijzigd, behalve dat de publicatie status op **Online** word gezet. als ook de tijdnotering en id van de eindredacteur worden genoteerd voor administratieve redenen. 
+
+Ook in deze fase blijft de optie bestaan om het artikel terug te sturen naar redactie of naar het archief te verplaatsen, bijvoorbeeld wanneer het niet meer relevant of verouderd raakt. 
+
+```mermaid 
+stateDiagram-v2
+    direction LR
+    [*] --> ONTSLUITING
+    ONTSLUITING --> ARCHIEF: archiveren 
+    ONTSLUITING --> REDACTIE: teruàg naar redactie
+    ONTSLUITING --> [*]: Verwijderen
+```
+
+### Acties in de Onstluiting/Published fase
+
+- **Terug naar redactie** indien het artikel een gronding onderhoud door de redactie vereist en terug aangeboden moet worden ter controle. 
+- **Archiveren** indien het artikel niet meer relevant is in zijn huidige context
+- **Verwijderen**, mits de gebruiker de ùachtiging heeft van een administrator of ontwikkelaar. 
+
+#### Acties binnen de zelfde fase van het artikel
+
+- **Bewerken** het artikel kan worden aangepast door eindredacteurs bijvoorbeeld bij het verwerken van gebruikers meldingen. 
