@@ -27,7 +27,7 @@ Het artikel blijft offline en er is nog geen reacteur of eindredacteur aan het a
 Indien de gebruiker die de suggestie doet aangemeld is met zijn account zal zijn account ID gekoppeld worden aan de suggestie, en later bij publicatie de nodige herkenning krijgen bij het artikel,
 terwijl een anonieme gebruiker alleen de suggestie doet zonder enige vorm van persoonlijke gegevens achter te laten wegens bv. privacy redenen. hij/zij zal dan ook geen herkenning krijgen voor de suggestie.
 
-### Acties in de OUD VW fase
+### Acties in de Nieuw fase
 
 De volgende acties zijn mogelijk in deze fase. Om het overzicht te behouden geven we het visueel en textueel weer.
 
@@ -135,11 +135,11 @@ stateDiagram-v2
     direction LR
     [*] --> ONTSLUITING
     ONTSLUITING --> ARCHIEF: archiveren 
-    ONTSLUITING --> REDACTIE: teruàg naar redactie
+    ONTSLUITING --> REDACTIE: terug naar redactie
     ONTSLUITING --> [*]: Verwijderen
 ```
 
-### Acties in de Onstluiting/Published fase
+### Acties in de Ontlsuiting/Published fase
 
 - **Terug naar redactie** indien het artikel een gronding onderhoud door de redactie vereist en terug aangeboden moet worden ter controle. 
 - **Archiveren** indien het artikel niet meer relevant is in zijn huidige context
@@ -148,3 +148,26 @@ stateDiagram-v2
 #### Acties binnen de zelfde fase van het artikel
 
 - **Bewerken** het artikel kan worden aangepast door eindredacteurs bijvoorbeeld bij het verwerken van gebruikers meldingen. 
+
+## Archief/Archived: artikel is niet langer meer actief 
+
+Wanneer een artikel zijn relevantie verliest, wordt het gearchiveerd en verdwijnt het uit de publieke omgeving. 
+Dit betekent niet dat het definitief verwijderd is, indien nodig kan het artikel nog worden hersteld. 
+
+In deze fase blijft de metadata ongewijzigd, behalve dat de publicatiestatus op `offline` word gezet.
+De eindredacteur en administrator kunnen bepalen of het artikel in het archief blijft, hersteld word of definitief verwijderd wordt. 
+
+```mermaid 
+stateDiagram-v2
+    direction LR 
+    [*] --> ARCHIEF
+    ARCHIEF --> REDACTIE: Herwerken
+    ARCHIEF --> ONTSLUTING: Herstellen 
+    ARCHIEF --> [*]: Verwijderen
+```
+
+### Acties in de archief status: 
+
+- **Herstellen** indien het artikel ten onrechte gearchiveerd is. 
+- **Herwerken** indien het artikel gearchiveerd is maar terug willen publiceren nadat het een update heeft gekregen. 
+- **Verwijderen** indien het volledig uit het systeem moet verdwijnen.
