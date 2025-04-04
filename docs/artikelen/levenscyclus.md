@@ -32,10 +32,12 @@ terwijl een anonieme gebruiker alleen de suggestie doet zonder enige vorm van pe
 De volgende acties zijn mogelijk in deze fase. Om het overzicht te behouden geven we het visueel en textueel weer.
 
 ```mermaid
-graph TD;
-  NIEUW -->|Bewerken| REDACTIE;
-  NIEUW -->|Verwijderen| X(Verwijderd);
-  NIEUW -->|Archiveren| ARCHIEF
+stateDiagram-v2
+    direction LR 
+    [*] --> NIEUW
+    NIEUW --> REDACTIE: bewerken 
+    NIEUW --> [*]: verwijderen
+    NIEUW --> ARCHIEF: archiveren 
 ```
 
 - **Bewerken** om het artikel naar de redactiefase te verplaatsen.
@@ -52,10 +54,12 @@ Hierbij wordt de oorsprong ingesteld op 'suggestie', en de melding bevat een dis
 Een redacteur kan deze artikelen oppakken om ze te bewerken of, indien ze niet langer relevant zijn, direct archiveren. Terwijl een administrator of een ontwikkelaar artikelen kan verwijderen indien nodig.
 
 ```mermaid
-graph TD;
-  NIEUW -->|Bewerken| REDACTIE;
-  NIEUW -->|Verwijderen| X(Verwijderd);
-  NIEUW -->|Archiveren| ARCHIEF
+stateDiagram-v2
+    direction LR 
+    [*] --> NIEUW
+    NIEUW --> REDACTIE: bewerken 
+    NIEUW --> [*]: verwijderen
+    NIEUW --> ARCHIEF: archiveren 
 ```
 
 - **Bewerken** om het artikel naar de redactiefase te verplaatsen.
