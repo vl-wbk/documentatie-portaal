@@ -18,8 +18,13 @@ export default defineConfig({
       }
     },
 
+    outline: {
+      label: 'Op deze pagina'
+    },
+
     editLink: {
-      pattern: 'https://github.com/vl-wbk/documentatie-portaal/edit/develop/docs/:path'
+      pattern: 'https://github.com/vl-wbk/documentatie-portaal/edit/develop/docs/:path',
+      text: 'Wijzig deze pagina op GitHub',
     },
 
     nav: [
