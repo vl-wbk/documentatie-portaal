@@ -1,7 +1,7 @@
-import { defineConfig } from 'vitepress'
+import { withMermaid } from "vitepress-plugin-mermaid";
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default withMermaid({
   title: "VL-WBK",
   description: "Met dit portaal willen we inzichten delen omtrent hoe het vlaams woordenboek is opgebouwd en intern werkt.",
   base: '/documentatie-portaal/',
@@ -31,6 +31,14 @@ export default defineConfig({
     sidebar: [
       { text: 'Introductie', link: '/introductie' },
 
+      {
+        text: 'Artikelen', 
+        collapsed: true, 
+        link: '/artikelen',
+        items: [
+          { text: 'Levenscyclus', link: '/artikelen/levenscyclus' },
+        ]
+      },
       {
         text: 'Gebruikers',
         collapsed: true,
