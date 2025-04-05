@@ -84,12 +84,14 @@ stateDiagram-v2
     direction LR
     [*] --> REDACTIE
     REDACTIE --> GOEDKEURING: Insturen
-    REDACTIE --> [*]: verwijderen
+    REDACTIE --> NIEUW: Ontkoppelen
+    REDACTIE --> [*]: Verwijderen
     REDACTIE --> ARCHIEF: Archiveren
 ```
 
 - **Insturen** indien de reacteur klaar is met de nodige bewerkingen kan hij/zij deze insturen voor publicatie.
 - **Archiveren** om het artikel te archiveren aangezien er wel een relevantie is maar toch het besluit word genomen om het niet te publiceren.
+- **Ontkoppelen** indien de redacteur het artikel opzich heeft genomen maar het werk is te complex of heeft geen ruimte meer heeft om het te behandelen kan hij/zij ontkoppeld worden als redacteur
 - **Verwijderen**, mits de gebruiker de rol heeft van administrator of ontwikkelaar.
 
 #### Acties binnen de zelfde fase van het artikel
@@ -97,7 +99,6 @@ stateDiagram-v2
 De volgende acties kunnen worden uitgevoerd binnen de artikel fase. Omdat deze geen fase wijziging krijgen na het uitvoeren van de actie zijn deze niet opgenomen binnen de visuele representatie.
 
 - **Bewerken** het artikel behoud zijn status maar blijft in de huidige status.
-- **Ontkoppelen** indien de redacteur het artikel opzich heeft genomen maar het werk is te complex of heeft geen ruimte meer heeft om het te behandelen kan hij/zij ontkoppeld worden als redacteur
 
 ## Goedkeuring/Approval: De laatste controle 
 
