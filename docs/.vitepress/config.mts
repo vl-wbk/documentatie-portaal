@@ -41,6 +41,7 @@ export default defineConfig({
         collapsed: true,
         items: [
             { text: 'Machtigingen', link: '/gebruikers/machtigingen' },
+            { text: 'Account deactivatie', link: '/gebruikers/deactivatie' }
         ]
       },
 
