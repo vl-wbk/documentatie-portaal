@@ -1,36 +1,37 @@
 # Richtlijn voor opname van woorden of uitdrukkingen in het Vlaams Woordenboek. 
 
-Deze richtlijn biedt een houvast aan redacteurs, taalvrijwilligers en bijdragers die meewerken aan het Vlaams Woordenboek. 
-Het verduidelijkt welke woorden en uitdrukkingen in aanmerking komen voor opname, welke uitgesloten worden, en hoe je twijfelgevallen kan beoordelen. 
+Deze richtlijn biedt een houvast aan taalvrijwilligers, redacteurs, eindredacteurs en andere bijdragers die meewerken aan het Vlaams Woordenboek. 
+Hij geeft aan welke woorden en uitdrukkingen in aanmerking komen voor opname, welke uitgesloten worden, en hoe je twijfelgevallen kan beoordelen. 
 
 ## Doel van het Vlaams Woordenboek 
 
 Het Vlaams woordenboek wil woorden en uitdrukkingen vastleggen die; 
 
-- **typisch zijn voor Vlaanderen**, maar geen deel uitmaken van de standaardtaal. 
-- **geen zuiver dialect zijn**, maar wel breed genoeg verspreid zijn.
-- en **voldoende zichtbaar zijn in gebruik** (schriftelijk of mondeling) 
+1. **typisch zijn voor Vlaanderen**, maar geen deel uitmaken van de standaardtaal in het hele taalgebied. 
+2. **geen lokaal dialect zijn**, maar wel breed genoeg verspreid zijn.
+3. én **voldoende zichtbaar zijn in gebruik** (schriftelijk of mondeling)
+4. of **lokale dialectwoorden die niet meteen als dusdanig herkenbaar zijn** (schriftelijk of mondeling)
 
-Terwijl we willen vermijden dat we woorden ten orechte opnemen onder de volgende criteria: 
+Woorden die onder minstens één van de volgende criteria vallen, nemen we niet op. 
 
-- dialectwoorden met beperkte verspreiding
-- kunstmatige of occasionele vernederlandste vormen. 
-- of standaardtaalwoorden met gewoon een andere context.
-- of standaardtaalwoorden met gewoon een andere context.
+- **dialectwoorden met heel beperkte verspreiding**, die door hun uitspraak duidelijk als dialect herkenbaar zijn
+- **kunstmatige of occasionele vernederlandste vormen van dialectwoorden**. 
+- **woorden die in de standaardtaal buiten België even bekend en gebruikelijk zijn*** en dus niet typisch zijn voor België. Woorden die actief gebruikt in België worden en passief bekend zijn in Nederland, kunnen wel in het Vlaams Woordenboek.
 
 ## Opnamecriteria in detail 
 
 Een woord komt in principe in aanmerking als het voldoet aan minstens drie van de vier onderstaande criteria. 
-Idealiter zijn dit criterium 1 + 2 + 3, of in sommige gevallen 1 + 2 + 4.
+Idealiter zijn dit criterium 1 + 2 + 3, of in sommige gevallen 1 + 2 + 4. 
+Bij twijfel is de beslissing van de eindredacteur doorslaggevend.
 
 ### 1. Niet of nauwelijks in gebruik in Nederland
 
-- Het woord is in Nederland actief ongebruikelijk: men gebruikt het daar niet spontaan.
-- Het kan passief bekend zijn: men begrijpt het als men het hoort, maar zou het zelf niet zeggen.
+- Het woord is in Nederland ongebruikelijk: men gebruikt het daar niet spontaan.
+- Het kan passief bekend zijn: men begrijpt het als men het hoort, maar zou het zelf niet zeggen in een neutrale context.
 
 #### Waarom belangrijk? 
 
-We willen woorden opnemen die Vlaams zijn, niet Nederlands. Als een woord ook in Nederland actief voorkomt, hoort het niet thuis in het VW.
+We willen woorden opnemen die typisch Vlaams zijn, niet (algemeen) Nederlands. Als een woord ook in Nederland actief gebruikt wordt in neutrale situaties, hoort het niet thuis in het VW.
 
 ##### Voorbeelden: 
 
@@ -40,7 +41,7 @@ We willen woorden opnemen die Vlaams zijn, niet Nederlands. Als een woord ook in
 ### 2. Aantoonbare aanwezigheid in geschreven of formele bronnen 
 
 - Het woord wordt gebruikt in Vlaamse kranten, tijdschriften, blogs, officiële documenten of andere publieke media.
-- Het komt niet alleen in spreektaal of sociale media voor.
+- Het komt ook, maar niet alleen in spreektaal of sociale media voor.
 
 #### Waarom belangrijk? 
 
@@ -54,15 +55,17 @@ Een woord dat leeft in geschreven bronnen, is waarschijnlijk ingeburgerd in het 
 ### 3. Brede regionale spreiding binnen Vlaanderen
 
 - Het woord wordt gebruikt in een groot deel van Vlaanderen (richtlijn: minstens 3 provincies of >50% van de bevolking).
-- Het is niet beperkt tot een enkele streek, gemeente of dialectzone.
+- Het is niet beperkt tot een enkele streek, gemeente of dialectregio.
+  
+Bij twijfel is de beslissing van de eindredacteur doorslaggevend.
 
 #### Waarom belangrijk?
 
-Het Vlaams Woordenboek richt zich op gewesttaal, niet op streektaal of dialect.
+Het Vlaams Woordenboek is geen dialectwoordenboek. Het richt zich op het Nederlands in heel Vlaanderen, niet op lokale streektaal of dialect.
 
 ##### Voorbeelden: 
 
-- ✅ frakske doen → herkend in meerdere provincies, dus opnemen.
+- ✅ frak → herkend in meerdere provincies, dus opnemen.
 - ❌ zakskesdag (streekterm voor huisvuilophaling) → beperkt tot bepaalde regio’s. Niet opnemen.
 
 ### 4. 🔠 Klinkt als Algemeen Nederlands – geen vernederlandst dialectwoord
@@ -71,19 +74,19 @@ Het Vlaams Woordenboek richt zich op gewesttaal, niet op streektaal of dialect.
 - Geen **opvallende vernederlandste spelling** nodig.
 
 **Voorbeelden:**
-- ✅ *tuttefrut* → klinkt natuurlijk, voelt Vlaams aan.  
-- ❌ *enkbeugel* (dialect voor eekhoorn) → geforceerde spelling.
+- ✅ *tuttefrut* → klinkt natuurlijk, voelt Vlaams aan hoewel het regionaal beperkt is in gebruik.  
+- ❌ *enkbeugel* (Limburgs dialect voor eekhoorn) → geforceerde spelling.
 
 ---
 
 ## 📊 Combinatieregels
 
-| Criterium 1 | Criterium 2 | Criterium 3 | Criterium 4 | Richtlijn                        |
-|-------------|-------------|-------------|-------------|----------------------------------|
-| ✅           | ✅           | ✅           | –           | **Zeker opnemen**               |
-| ✅           | ✅           | –           | ✅           | **Grijze zone – eindredactie** |
-| ✅           | –           | ✅           | ✅           | **Waarschijnlijk niet opnemen** |
-| –           | –           | ✅           | ✅           | **Niet opnemen**                |
+| Criterium 1 | Criterium 2 | Criterium 3 | Criterium 4 | Richtlijn                                          |
+|-------------|-------------|-------------|-------------|----------------------------------------------------|
+| ✅           | ✅           | ✅           | –           | **Zeker opnemen**                              |
+| ✅           | ✅           | –           | ✅           | **Grijze zone – eindredactie**                 |
+| ✅           | –           | ✅           | ✅           | **Waarschijnlijk niet opnemen - eindredactie** |
+| –            | –           | ✅           | ✅           | **Niet opnemen**                               |
 
 ---
 
@@ -91,10 +94,10 @@ Het Vlaams Woordenboek richt zich op gewesttaal, niet op streektaal of dialect.
 
 Let op deze uitsluitingssignalen:
 
-- Twijfel over spelling of uitspraak → wijst op dialect.
-- Alleen lokaal gekend of gebruikt → geen gewesttaal.
-- Geen schriftelijk gebruik → niet ingeburgerd.
-- Vernederlandste vorm van dialect → kunstmatig.
+- Twijfel over spelling of uitspraak, of verschillende regionale uitspraakvarianten → wijst op dialect.
+- Alleen lokaal gekend of gebruikt → wijst op dialect.
+- Geen schriftelijk gebruik → niet breed ingeburgerd.
+- Vernederlandste vorm van dialect, die zelf niet gebruikelijk is (bijv. _enkbeugel_) → kunstmatig.
 
 ---
 
@@ -129,18 +132,29 @@ Let op deze uitsluitingssignalen:
 +-------------------+
           |
           v
-  Ja ------------> Nee
-   |                |
-   v                v
-+---------------------+     +---------------------+
-| 3. Brede verspreiding?|    |  Niet opnemen       |
-+---------------------+     +---------------------+
-   |                            |
-   v                            v
- Ja ---> Zeker opnemen     Nee -> check 4
-             |                      |
-             v                      v
-     +------------------+   +---------------------+
-     | Klinkt het als AN?|   |  Niet opnemen       |
-     +------------------+   +---------------------+
-```
+  Ja -------------------------> Nee/heel weinig
+   |                             |
+   v                             v
++-----------------------+     +---------------------+
+| 3. Brede verspreiding?|     |  Niet opnemen       |
++-----------------------+     +---------------------+
+   |                  |           
+   v                  v          
+   Ja                 Nee -> check 4
+   |                             |
+   v                             v
+ +--------------------+     +-------------------+   
+ | Opnemen            |     | Klinkt het als AN?|  
+ +--------------------+     +-------------------+   
+                              |             |         
+                              |             |
+                              v             v
+                              Ja            Nee
+                              |             |
+                              v             v
+                +--------------------+    +---------------------+
+                | Opnemen, beslissing|    |  Niet opnemen       |
+                | eindredacteur      |    +---------------------+
+                +--------------------+                           
+
+
