@@ -37,6 +37,7 @@ export default withMermaid({
         link: '/artikelen',
         items: [
           { text: 'Levenscyclus', link: '/artikelen/levenscyclus' },
+          { text: 'Labelsysteem', link: '/artikelen/labelsysteem' },
         ]
       },
       {
