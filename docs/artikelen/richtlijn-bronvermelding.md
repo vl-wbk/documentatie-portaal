@@ -5,12 +5,12 @@ Voor redacteurs en eindredateurs van het Vlaams Woordenboek
 ## Doel en toepassing 
 
 Deze richtlijnen zijn bedoeld voor iedereen die bijdraagt aan de redactie van het *Vlaams woordenboek*.
-Ze bepalen welke bronnen als **betrouwbaar** worden beschouwd bij het toevoegen of bewerken vanlemma's, betekenissen, regiolabels, stijlregisters en voorbeeldzinnen. 
+Ze bepalen welke bronnen als **betrouwbaar** worden beschouwd bij het toevoegen of bewerken van lemma's, betekenissen, regiolabels, stijlregisters en voorbeeldzinnen. 
 
 Ze zorgen voor de volgende zaken: 
 
 - Uniforme bronvermelding in het redactieproces. 
-- Transparantie over waar de informatie vandaan komt. 
+- Transparantie over waar bepaalde informatie vandaan komt. 
 - Nauwkeurige datering van geraadpleegde gegevens. 
 
 ## Basisprincipes 
@@ -32,13 +32,13 @@ Bij voorkeur worden **geen URL's** opgenomen in de bronvermelding tenzij:
 
 - De pagina publiek toegankelijk is. 
 - De URL stabiel en specifiek is (bv. lemma op ANW). 
-- Het om illustratief materueel gaat (bv. blog, krant). 
+- Het om illustratief materieel gaat (bv. blog, krant). 
 
 Voor commerciele of wijzigbare bronnen (zoals Van Dale Online): enkel naam, eventueel lemma en raadpleegdatum. 
 
-### 3. Noteer altijd het regiolabel of stijregister 
+### 3. Noteer altijd het regiolabel of stijlregister 
 
-Bij het overn,emen van labels zoals `BN`, `NN`, `informeel`, `archaïsch`, enz, moet je: 
+Bij het overnemen van labels zoals `BN`, `NN`, `informeel`, `archaïsch`, enz, moet je: 
 
 - Expliciet noteren **uit welke bron** het label komt. 
 - Steeds de **raadpleegdatum** toevoegen. 
@@ -48,8 +48,8 @@ Bij het overn,emen van labels zoals `BN`, `NN`, `informeel`, `archaïsch`, enz, 
 
 ### 1. Dikke Van Dale (betaald of papieren versie)
 
-- Gebruik enkel de **volledige** versie (online met abbonoment of papieren). 
-- Niet de gratis versie op **vandale.nl** -> dat is de "hedendaagse" en soms onnauwkeurig. 
+- Gebruik enkel de **volledige** versie (online met abonnement of papieren). 
+- Niet de gratis versie op **vandale.nl** -> dat is de "hedendaagse", beperkter en soms onnauwkeurig. 
 - Toepassing: spelling, betekenis, etymologie, BN/NN-labels, stijlregisters. 
 
 #### Vermelding 
@@ -58,7 +58,7 @@ Een goed voorbeeld daarvan is bijvoorbeeld is het volgende:
 
 > Van Dale Groot woordenboek van de Nederlandse taal, lemma voorbeeldzin, BN-label. Geraadpleegd op 10-04-2025.
 
-### 2. Prisma hendendaags Nederlands Woordenboek (online, met abbonoment) 
+### 2. Prisma hedendaags Nederlands Woordenboek (online, met abbonoment) 
 
 - Compacter dan Van Dale, maar zeer actueel. 
 - Enkel de betaalde versie gebruiken.  
@@ -72,8 +72,9 @@ Een goed voorbeeld daarvan is bijvoorbeeld is het volgende:
 
 ### 3. Typisch Vlaams - Ludo Permentier 
 
-- Papieren boek, maar ook grotendeels beschhikbaar op Ensie.nl 
-- Gebruik als bron voor specifiek Vlaams woordgebruik of zegswijzen. 
+- Papieren boek, maar ook beschhikbaar op Ensie.nl 
+- Gebruik als bron voor specifiek Vlaams woordgebruik of zegswijzen.
+- Uit 2015, wordt niet meer bijgewerkt
 
 #### Vermelding 
 
@@ -95,19 +96,19 @@ Een goed voorbeeld daarvan is bijvoorbeeld het volgende:
 
 ### 5. Taaladvies.net 
 
-- Officiële adviezen van de Nederlandse en Vlaamse overheden.
+- Officiële adviezen van de Taalunie.
 - Gebruik bij spelling, grammatica, vaste uitdrukkingen en gebruiksnormen.
 
 #### Vermelding 
 
 Een goed voorbeeld daarvan is bijvoorbeeld het volgende: 
 
-> Taaladvies.net, advies over tussen-n in samenstellingen, geraadpleegd op 10-04-2025.
+> Taaladvies.net, Voormiddag, namiddag, geraadpleegd op 10-04-2025.
 
 ### 6. Team Taaladvies (Taaltelefoon) 
 
 - Adviezen die niet (of nog niet) op Taaladvies.net staan.
-- Ook taaladvies uit VRT Taal valt hieronder.
+- Ook taaladvies uit de vroegere website VRT Taal valt hieronder.
 
 #### Vermelding 
 
@@ -135,7 +136,7 @@ Een goed voorbeeld daarvan is bijvoorbeeld het volgende:
 
 Hier zijn enkele toepassingsvoorbeelden: 
 
-### 1 Voor regio label 
+### 1 Voor regiolabel 
 
 > “Het label BN bij het woord droogkast is overgenomen uit de Dikke Van Dale (geraadpleegd op 10-04-2025).” 
 
@@ -152,7 +153,7 @@ Hier zijn enkele toepassingsvoorbeelden:
 1. **Controleer of je bron geldig is** 
 2. **Noteer het lemma + bron + datum**
 3. **Neem labels of stijlkenmerken alleen over als ze expliciet zo vermeld staan** 
-4. **Gebruik voorbeeldmateriaal uitsluiten illustratief, met juiste bronvermelding**
+4. **Gebruik voorbeeldmateriaal uitsluitend illustratief, met juiste bronvermelding**
 
 ## Samenvatting in checklistvorm 
 
