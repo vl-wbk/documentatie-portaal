@@ -44,22 +44,22 @@ stateDiagram-v2
 - **Archiveren** om het artikel te archiveren aangezien er wel een relevantie is maar toch het besluit word genomen om het niet te publiceren.
 - **Verwijderen**, mits er nog geen verdere bewerking heeft plaatsgevonden.
 
-## OUD VW/New: migratie uit de vorige versie van het Vlaams Woordenboek
+## OUD VW/ExternalData: migratie uit de vorige versie van het Vlaams Woordenboek
 
 Sommige artikelen worden niet nieuw aangemaakt, maar overgezet vanuit een ouder systeem door een ontwikkelaar van het nieuwe Vlaams Woordenboek.
-Deze artikelen krijgen automatisch de status `Nieuw`, met de oorsprong als `OUD VW` in tegenstelling tot de suggesties worden deze direct online geplaatst,
+Deze artikelen krijgen automatisch de status `ExternalData`, met de oorsprong als `v1` in tegenstelling tot de suggesties worden deze direct online geplaatst,
 maar voorzien van een disclaimer die aangeeft dat ze nog niet geregideerd zijn. Dit waarborgt de transparantie over de kwaliteit van de content.
 
-Hierbij wordt de oorsprong ingesteld op 'suggestie', en de melding bevat een disclaimer over de mogelijke gebreken in de inhoud.
+Hierbij wordt de oorsprong ingesteld op 'v1', en de melding bevat een disclaimer over de mogelijke gebreken in de inhoud.
 Een redacteur kan deze artikelen oppakken om ze te bewerken of, indien ze niet langer relevant zijn, direct archiveren. Terwijl een administrator of een ontwikkelaar artikelen kan verwijderen indien nodig.
 
 ```mermaid
 stateDiagram-v2
     direction LR 
-    [*] --> NIEUW
-    NIEUW --> REDACTIE: bewerken 
-    NIEUW --> [*]: verwijderen
-    NIEUW --> ARCHIEF: archiveren 
+    [*] --> ExternalData
+    ExternalData --> REDACTIE: bewerken 
+    ExternalData --> [*]: verwijderen
+    ExternalData --> ARCHIEF: archiveren 
 ```
 
 - **Bewerken** om het artikel naar de redactiefase te verplaatsen.
