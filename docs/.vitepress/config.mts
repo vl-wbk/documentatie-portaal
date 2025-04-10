@@ -36,6 +36,7 @@ export default withMermaid({
         collapsed: true, 
         link: '/artikelen',
         items: [
+          { text: 'Bronvermelding criteria', link: '/artikelen/richtlijn-bronvermelding' },
           { text: 'Levenscyclus', link: '/artikelen/levenscyclus' },
           { text: 'Opname criteria', link: '/artikelen/opname-richtlijn' }
         ]
