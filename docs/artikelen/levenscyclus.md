@@ -15,6 +15,10 @@ Fasen worden in de hoofding gedocumenteerd met het volgende formaat:
 **Schema representatie/Technische representatie**
 :::
 
+## Inhoudstafel van het documentatie document
+
+[[toc]]
+
 ## Nieuw/New: het begin van een artikel
 
 Wanneer een artikel wordt aangemaakt of als suggestie word ingestuurd, start het in de status **nieuw**. Dit betekend dat een gebruiker een suggestie heeft gedaan maar het artikel nog niet publiekelijk beschikbaar is.
@@ -174,5 +178,14 @@ stateDiagram-v2
 ### Acties in de archief status: 
 
 - **Herstellen** indien het artikel ten onrechte gearchiveerd is. 
-- **Herwerken** indien het artikel gearchiveerd is maar terug willen publiceren nadat het een update heeft gekregen. 
+- **Herwerken** indien het artikel gearchiveerd is maar terug willen publiceren nadat het een update heeft gekregen.
 - **Verwijderen** indien het volledig uit het systeem moet verdwijnen.
+
+### Permissies in de archief status: 
+
+Het volgende permissie overzicht van van kracht op artikel transitites binnen de archief status: 
+
+| Actie / Rol               | Invoerder | Redacteur          | Eindredacter       | Administrator      | Ontwikkelaar       | 
+| :------------------------ | :-------: | :----------------: | :----------------: | :----------------: | :----------------: | 
+| **Archief > Redactie**    | :x:       | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| **Archief > verwijderen** | :x:       | :x:                | :x:                | :white_check_mark: | :white_check_mark: |
