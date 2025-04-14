@@ -48,6 +48,17 @@ stateDiagram-v2
 - **Archiveren** om het artikel te archiveren aangezien er wel een relevantie is maar toch het besluit word genomen om het niet te publiceren.
 - **Verwijderen**, mits er nog geen verdere bewerking heeft plaatsgevonden.
 
+### Permissies binnen de nieuw fase 
+
+Het volgende permissie overzicht is van kracht op artikel transities binnen de fase: 
+
+| Actie / Rol                              | Invoerder          | Redacteur          | Eindredacteur      | Administrator      | Ontwikkelaar       | 
+| :--------------------------------------- | :----------------: | :----------------: | :----------------: | :----------------: | :----------------: | 
+| **Nieuw > Redactie**                     | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| **Nieuw > Archief**                      | :x:                | :x:                | :x:                | :x:                | :x:                |
+| **Nieuw > * (verwijderen)***             | :x:                | :x:                | :x:                | :white_check_mark: | :white_check_mark: |
+
+
 ## OUD VW/New: migratie uit de vorige versie van het Vlaams Woordenboek
 
 Sommige artikelen worden niet nieuw aangemaakt, maar overgezet vanuit een ouder systeem door een ontwikkelaar van het nieuwe Vlaams Woordenboek.
@@ -69,6 +80,20 @@ stateDiagram-v2
 - **Bewerken** om het artikel naar de redactiefase te verplaatsen.
 - **Archiveren** om het artikel te archiveren aangezien er wel een relevantie is maar toch het besluit word genomen om het niet te publiceren.
 - **Verwijderen**, mits er nog geen verdere bewerking heeft plaatsgevonden.
+
+### Permissies binnen de nieuw fase 
+
+het volgende permissie overzicht is van kracht op artikel transities binnen de fase: 
+
+:::danger
+***fase is nog niet geintegreerd in deze fase van het artikel***
+:::
+
+| Actie / Rol                              | Invoerder          | Redacteur          | Eindredacteur      | Administrator      | Ontwikkelaar       | 
+| :--------------------------------------- | :----------------: | :----------------: | :----------------: | :----------------: | :----------------: | 
+| **Nieuw > Redactie**                     | | | | |
+| **Nieuw > Archief**                      | | | | |
+| **Nieuw > * (verwijderen)***             | | | | |
 
 ## Redactie/Draft: de inhoudelijke bewerking
 
@@ -104,6 +129,17 @@ De volgende acties kunnen worden uitgevoerd binnen de artikel fase. Omdat deze g
 
 - **Bewerken** het artikel behoud zijn status maar blijft in de huidige status.
 
+### Permissies binnen de redactiefase 
+
+Het volgende permissie overzicht is van kracht op artikel transities binnen de redactionele fase: 
+
+| Actie / Rol                              | Invoerder | Redacteur                       | Eindredacteur                   | Administrator                   |  Ontwikkelaar                   | 
+| :--------------------------------------- | :-------: | :-----------------------------: | :-----------------------------: | :-----------------------------: | :-----------------------------: | 
+| **Redactie > Redactie *(bewerken)***     | :x:       | :white_check_mark: (toegewezen) | :white_check_mark: (toegewezen) | :white_check_mark: (toegewezen) | :white_check_mark: (toegewezen) |  
+| **Redactie > Nieuw**                     | :x:       | :white_check_mark: (toegewezen) | :white_check_mark: (toegewezen) | :white_check_mark:              | :white_check_mark:              |
+| **Redactie > Archief**                   | :x:       | :x:                             | :x:                             | :x:                             | :x:                             |
+| **Redactie > Verwijderen**               | :x:       | :x:                             | :x:                             | :white_check_mark:              | :white_check_mark:              |      
+
 ## Goedkeuring/Approval: De laatste controle 
 
 Wanneer een redacteur tevreden is met de bewerking, kan het artikel ter goedkeuring worden aangeboden aan een eindredacteur. 
@@ -132,6 +168,17 @@ stateDiagram-v2
 - **Archiveren** als publicatie niet wenselijk is maar toch word bijgehouden omtrent verschillende redenen.
 - **Verwijderen**, mites de gebruiker de rol heeft van administrator of ontwikkelaar.
 
+### Permissies binnen de goedkeuringsfase 
+
+Het volgende permissie overzicht is van kracht op artikel transities binnen de goedkeurings fase. 
+
+| Actie / Rol                              | Invoerder | Redacteur          | Eindredacteur      | Administrator      | Ontwikkelaar       | 
+| :--------------------------------------- | :-------: | :----------------: | :----------------: | :----------------: | :----------------: | 
+| **Goedkeuring > Redactie**               | :x:       | :x:                | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| **Goedkeuring > Publicatie**             | :x:       | :x:                | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| **Goedkeuring > Archief**                | :x:       | :x:                | :white_check_mark: | :white_check_mark: | :x:                |
+| **Goedkeuring > Verwijderen**            | :x:       | :x:                | :x:                | :x:                | :x:                |
+
 ## Ontsluiting/Published: Publicatie 
 
 Zodra een artikel is goedgekeurd, wordt het gepubliceerd en toegankelijk gemaakt voor eindgebruikers. Dit markeert de afronding van het redactionele proces. 
@@ -148,7 +195,7 @@ stateDiagram-v2
     ONTSLUITING --> [*]: Verwijderen
 ```
 
-### Acties in de Ontlsuiting/Published fase
+### Acties in de Ontsluiting/Published fase
 
 - **Terug naar redactie** indien het artikel een gronding onderhoud door de redactie vereist en terug aangeboden moet worden ter controle. 
 - **Archiveren** indien het artikel niet meer relevant is in zijn huidige context
@@ -157,6 +204,16 @@ stateDiagram-v2
 #### Acties binnen de zelfde fase van het artikel
 
 - **Bewerken** het artikel kan worden aangepast door eindredacteurs bijvoorbeeld bij het verwerken van gebruikers meldingen. 
+
+### Permissies in de onsluitings fase
+
+Het volgende permissie overzicht is van kracht op artikel transities binnen de publicatie status:
+
+| Actie / Rol                              | Invoerder | Redacteur          | Eindredacteur      | Administrator      | Ontwikkelaar       | 
+| :--------------------------------------- | :-------: | :----------------: | :----------------: | :----------------: | :----------------: | 
+| **Publicatie > Publicatie *(bewerken)*** | :x:       | :x:                | :x:                | :x:                | :x:                |
+| **Publicatie > Archief**                 | :x:       | :x:                | :white_check_mark: | :white_check_mark: | :x:                |
+| **Publicatie > Verwijderen**             | :x:       | :x:                | :x:                | :white_check_mark: | :white_check_mark: |
 
 ## Archief/Archived: artikel is niet langer meer actief 
 
@@ -183,9 +240,10 @@ stateDiagram-v2
 
 ### Permissies in de archief status: 
 
-Het volgende permissie overzicht van van kracht op artikel transitites binnen de archief status: 
+Het volgende permissie overzicht is van kracht op artikel transitites binnen de archief status: 
 
-| Actie / Rol               | Invoerder | Redacteur          | Eindredacter       | Administrator      | Ontwikkelaar       | 
-| :------------------------ | :-------: | :----------------: | :----------------: | :----------------: | :----------------: | 
-| **Archief > Redactie**    | :x:       | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| **Archief > verwijderen** | :x:       | :x:                | :x:                | :white_check_mark: | :white_check_mark: |
+| Actie / Rol                        | Invoerder | Redacteur          | Eindredacteur      | Administrator      | Ontwikkelaar       | 
+| :--------------------------------- | :-------: | :----------------: | :----------------: | :----------------: | :----------------: | 
+| **Archief > Archief *(bewerken)*** | :x:       | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| **Archief > Redactie**             | :x:       | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| **Archief > Verwijderen**          | :x:       | :x:                | :x:                | :white_check_mark: | :white_check_mark: |
