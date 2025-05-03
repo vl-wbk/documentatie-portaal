@@ -35,9 +35,9 @@ Dit is de naam van de feature die je wilt beheren. Het moet overeenkomen met de 
 
 Hieronder volgt een lijst van beschikbare features binnen de applicatie. Zorg ervoor dat je de juiste naam gebruikt bij het beheren van de features: 
 
-| Naam                      | Beschrijving                                                  |
-| :------------------------ | :------------------------------------------------------------ |
-| [DocumentationButtons]()  | Weergave van help knoppen naar de documentatie doorheen de applicatie. |
+| Naam                                                                                                                 | Beschrijving                                                           |
+| :------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------- |
+| [DocumentationButtons](https://github.com/vl-wbk/vl-woordenboek/blob/develop/app/Features/DocumentationButtons.php)  | Weergave van help knoppen naar de documentatie doorheen de applicatie. |
 
 ## Voorbeelden van gebruik
 

@@ -58,8 +58,7 @@ Het volgende permissie overzicht is van kracht op artikel transities binnen de f
 | **Nieuw > Archief**                      | :x:                | :x:                | :x:                | :x:                | :x:                |
 | **Nieuw > * (verwijderen)***             | :x:                | :x:                | :x:                | :white_check_mark: | :white_check_mark: |
 
-
-## OUD VW/New: migratie uit de vorige versie van het Vlaams Woordenboek
+## OUD VW/ExternalData: migratie uit de vorige versie van het Vlaams Woordenboek
 
 Sommige artikelen worden niet nieuw aangemaakt, maar overgezet vanuit een ouder systeem door een ontwikkelaar van het nieuwe Vlaams Woordenboek.
 Deze artikelen krijgen automatisch de status `ExternalData`, met de oorsprong als `v1` in tegenstelling tot de suggesties worden deze direct online geplaatst,

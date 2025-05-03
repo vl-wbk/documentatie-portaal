@@ -20,8 +20,13 @@ export default withMermaid({
       }
     },
 
+    outline: {
+      label: 'Op deze pagina'
+    },
+
     editLink: {
-      pattern: 'https://github.com/vl-wbk/documentatie-portaal/edit/develop/docs/:path'
+      pattern: 'https://github.com/vl-wbk/documentatie-portaal/edit/develop/docs/:path',
+      text: 'Wijzig deze pagina op GitHub',
     },
 
     nav: [
@@ -49,6 +54,7 @@ export default withMermaid({
         collapsed: true,
         items: [
             { text: 'Machtigingen', link: '/gebruikers/machtigingen' },
+            { text: 'Account deactivatie', link: '/gebruikers/deactivatie' }
         ]
       },
 
@@ -69,13 +75,17 @@ export default withMermaid({
       }
     ],
 
+    search: {
+      provider: 'local',
+    },
+
     footer: {
       message: 'Vrijgegeven onder de MIT Licentie', 
       copyright: 'Copyright © 2024-heden Vlaams-Woordenboek',
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/vl-wbk' }
     ]
   }
 })
