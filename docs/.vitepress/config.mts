@@ -10,6 +10,8 @@ export default withMermaid({
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    aside: false,
+
     lastUpdated: {
       text: 'Laatste aanpassing',
       formatOptions: {
@@ -41,7 +43,9 @@ export default withMermaid({
         collapsed: true, 
         link: '/artikelen',
         items: [
+          { text: 'Bronvermelding criteria', link: '/artikelen/richtlijn-bronvermelding' },
           { text: 'Levenscyclus', link: '/artikelen/levenscyclus' },
+          { text: 'Labelsysteem', link: '/artikelen/labelsysteem' },
           { text: 'Opname criteria', link: '/artikelen/opname-richtlijn' }
         ]
       },
