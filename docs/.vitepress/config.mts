@@ -7,6 +7,7 @@ export default withMermaid({
   base: '/documentatie-portaal/',
   cleanUrls: false,
   lastUpdated: true,
+  ignoreDeadLinks: true,
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
