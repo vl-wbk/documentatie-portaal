@@ -44,6 +44,7 @@ export default withMermaid({
         collapsed: true, 
         link: '/artikelen',
         items: [
+          { text: 'Rate limiting', link: '/artikelen/rate-limiting'},
           { text: 'Bronvermelding criteria', link: '/artikelen/richtlijn-bronvermelding' },
           { text: 'Levenscyclus', link: '/artikelen/levenscyclus' },
           { text: 'Labelsysteem', link: '/artikelen/labelsysteem' },
@@ -63,7 +64,7 @@ export default withMermaid({
         text: 'Developer documentatie',
         collapsed: true,
         items: [
-            { text: 'Featurebeheer', link: '/technical/feature-manager' },
+            { text: 'Featurebeheer', link: '/technical/feature-manager' }
         ]
       },
 
@@ -71,7 +72,7 @@ export default withMermaid({
         text: 'Varia', 
         collapsed: true, 
         items: [
-          { text: 'Dataset releases', link: 'other/dataset-release-guideline', },
+          { text: 'Dataset releases', link: 'other/dataset-release-guideline'},
         ]
       }
     ],
