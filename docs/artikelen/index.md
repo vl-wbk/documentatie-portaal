@@ -1,3 +1,3 @@
 ::: warning
-Documentatie môet nog worden uitgeschreven
+Documentatie moet nog worden uitgeschreven
 :::
