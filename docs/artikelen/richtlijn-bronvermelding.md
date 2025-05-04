@@ -1,6 +1,6 @@
-# Richtljnen voor Bronermelding in de artikelen van het Vlaams woordenboek 
+# Richtlijnen voor Bronvermelding in de artikelen van het Vlaams woordenboek 
 
-Voor redacteurs en eindredateurs van het Vlaams Woordenboek 
+Voor redacteurs en eindredacteurs van het Vlaams Woordenboek 
 
 ## Doel en toepassing 
 
@@ -19,7 +19,7 @@ We hanteren de volgende basisprincipes:
 
 ### 1. Vermeld altijd de raadpleegdatum 
 
-Voor elke bron en in het bijzonder **online bronnen**, moet je aangeven op welke datum je de informatie geraadpleegd hebt. 
+Voor elke bron en in het bijzonder **online bronnen** moet je aangeven op welke datum je de informatie geraadpleegd hebt. 
 Zo blijft het duidelijk wanneer bepaalde regiolabels of betekenissen voor het laatst gedefinieerd zijn. 
 
 Een goed voorbeeld daarvan is bijvoorbeeld het volgende: 
@@ -34,7 +34,7 @@ Bij voorkeur worden **geen URL's** opgenomen in de bronvermelding tenzij:
 - De URL stabiel en specifiek is (bv. lemma op ANW). 
 - Het om illustratief materieel gaat (bv. blog, krant). 
 
-Voor commerciele of wijzigbare bronnen (zoals Van Dale Online): enkel naam, eventueel lemma en raadpleegdatum. 
+Voor commerciële of wijzigbare bronnen (zoals Van Dale Online): enkel naam, eventueel lemma en raadpleegdatum. 
 
 ### 3. Noteer altijd het regiolabel of stijlregister 
 
@@ -49,16 +49,16 @@ Bij het overnemen van labels zoals `BN`, `NN`, `informeel`, `archaïsch`, enz, m
 ### 1. Dikke Van Dale (betaald of papieren versie)
 
 - Gebruik enkel de **volledige** versie (online met abonnement of papieren). 
-- Niet de gratis versie op **vandale.nl** -> dat is de "hedendaagse", beperkter en soms onnauwkeurig. 
+- Liever niet de gratis versie op **vandale.nl** -> dat is de "hedendaagse", beperkter en soms onnauwkeurig.
 - Toepassing: spelling, betekenis, etymologie, BN/NN-labels, stijlregisters. 
 
 #### Vermelding 
 
-Een goed voorbeeld daarvan is bijvoorbeeld is het volgende: 
+Een goed voorbeeld daarvan is het volgende: 
 
 > Van Dale Groot woordenboek van de Nederlandse taal, lemma voorbeeldzin, BN-label. Geraadpleegd op 10-04-2025.
 
-### 2. Prisma hedendaags Nederlands Woordenboek (online, met abbonoment) 
+### 2. Prisma hedendaags Nederlands Woordenboek (online, met abonnement) 
 
 - Compacter dan Van Dale, maar zeer actueel. 
 - Enkel de betaalde versie gebruiken.  
@@ -66,19 +66,19 @@ Een goed voorbeeld daarvan is bijvoorbeeld is het volgende:
 
 #### Vermelding 
 
-Een goed voorbeeld daarvan is bijvoorbeeld is het volgende: 
+Een goed voorbeeld daarvan is het volgende: 
 
 > Prisma Hedendaags Nederlands (online), lemma zagen, geraadpleegd op 10-04-2025.
 
 ### 3. Typisch Vlaams - Ludo Permentier 
 
-- Papieren boek, maar ook beschhikbaar op Ensie.nl 
+- Papieren boek, maar ook beschikbaar op Ensie.nl 
 - Gebruik als bron voor specifiek Vlaams woordgebruik of zegswijzen.
 - Uit 2015, wordt niet meer bijgewerkt
 
 #### Vermelding 
 
-Een goed voorbeeld daarvan is bijvoorbeeld het volgende: 
+Een goed voorbeeld daarvan is het volgende: 
 
 > Permentier, Ludo. Typisch Vlaams. Geraadpleegd op 10-04-2025 via Ensie.nl.
 
@@ -90,7 +90,7 @@ Een goed voorbeeld daarvan is bijvoorbeeld het volgende:
 
 #### Vermelding 
 
-Een goed voorbeeld daarvan is bijvoorbeeld het volgende: 
+Een goed voorbeeld daarvan is het volgende: 
 
 > Algemeen Nederlands Woordenboek (ANW), lemma uitgelezen, geraadpleegd op 10-04-2025.
 
@@ -101,7 +101,7 @@ Een goed voorbeeld daarvan is bijvoorbeeld het volgende:
 
 #### Vermelding 
 
-Een goed voorbeeld daarvan is bijvoorbeeld het volgende: 
+Een goed voorbeeld daarvan is het volgende: 
 
 > Taaladvies.net, Voormiddag, namiddag, geraadpleegd op 10-04-2025.
 
@@ -112,7 +112,7 @@ Een goed voorbeeld daarvan is bijvoorbeeld het volgende:
 
 #### Vermelding 
 
-Een goed voorbeeld daarvan is bijvoorbeeld het volgende: 
+Een goed voorbeeld daarvan is het volgende: 
 
 > Team Taaladvies, advies Vlaams gebruik van “aanstellen”, geraadpleegd op 10-04-2025.
 
@@ -128,7 +128,7 @@ Deze bronnen zijn niet geschikt om spelling, betekenissen of regiolabels op te b
 
 #### Vermelding 
 
-Een goed voorbeeld daarvan is bijvoorbeeld het volgende:  
+Een goed voorbeeld daarvan is het volgende:  
 
 > De Standaard, artikel ‘Ik heb daar precies geen goesting voor’, 12-03-2023. (voor context, niet als norm)
 
@@ -150,7 +150,7 @@ Hier zijn enkele toepassingsvoorbeelden:
 
 ## Werkproces voor redacteurs 
 
-1. **Controleer of je bron geldig is** 
+1. **Controleer of je bron ècht bestaat en geldig is** 
 2. **Noteer het lemma + bron + datum**
 3. **Neem labels of stijlkenmerken alleen over als ze expliciet zo vermeld staan** 
 4. **Gebruik voorbeeldmateriaal uitsluitend illustratief, met juiste bronvermelding**
