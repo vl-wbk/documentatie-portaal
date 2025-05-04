@@ -86,7 +86,8 @@ export default withMermaid({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vl-wbk' }
+      { icon: 'github', link: 'https://github.com/vl-wbk' }, 
+      { icon: 'discord', link: 'https://discord.gg/eXsyvdgx' },
     ]
   }
 })
