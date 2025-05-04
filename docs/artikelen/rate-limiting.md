@@ -33,9 +33,29 @@ Als ook om de volgende redenen:
 - Het systeem kijkt naar je **IP-adres** (dat is een soort van identificatie van je internetverbinding). 
 - Als er meer dan 15 inzendingen binnen korte periode van het zelfde adres komen, krijg je na het insturen van het formulier een melding. 
 - Vanaf dab moet je enkele minuten wachten voor je weer formulieren kunt indienen. 
-- Na die wahttijd wordt de teller automatisch weer op nul gezet. 
+- Na die wachttijd wordt de teller automatisch weer op nul gezet. 
+
 
 Je hoeft dus niets te doen, gewoon even wachten. 
+
+## Verschil tussen anonieme en ingelogde gebruikers
+
+We maken een onderscheid tussen: 
+
+| Gebruikerstype    | Maximale inzendingen | Periode         | Op basis van  |
+| ----------------- | -------------------- | --------------- | ------------- |
+| **Niet-ingelogd** | 15                   | ca. 1–2 minuten | IP-adres      |
+| **Ingelogd**      | 60                   | ca. 1–2 minuten | Gebruikers-ID |
+
+### Waarom krijgen ingelogde gebruikers meer ruimte? 
+
+Gebruikers met een ccount zijn doorgaans betrouwbaarder: 
+
+- Ze hebben zich geregistreerd met een ccount 
+- Hun acties kunnen invidueel gevolgd worden 
+- Ze zijn vaak actief betrokken bij het platform (bv. redacteurs)
+
+Daarom geven we hen meer flexibiliteit, zodat ze vlotter meerdere formulieren kunnen indienen (bijv. bij het toevoegen van meerdere gerelateerde woorden of suggesties).
 
 ## Hoelang moet ik wachten? 
 
@@ -46,14 +66,15 @@ Dat verschilt een beetje, maar meestal:
 
 Je krijgt geen permanente blokkering. Dit is tijdelijk en automatisch. 
 
-## Wat als we met meerdere mensen op hetzelfde netwerk werken? 
+## Speciale gevallen: gedeelde netwerken 
 
-Soms zitten meerdere mensen op hetzelfde netwerk. Bv. in een school, bibliotheek of op kantoor. Als jullie allemaal tegelijk formulieren invullen, kan het lijken alfof **één persoon heel veel dingen doorstuurt.**, Waardoor de limiet geactiveerd wordt. 
+In Klaslokalen, bibliotheken of kantoren delen meerdere personen vaak één IP-adres. Daardoor kan het lijken alsof **één persoon** plots tientallen formulieren indient, wat sneller de limiet activeert. 
 
-In dat geval raden we aan om: 
+#### Aanbevelingen 
 
-- Even te pauzeren met inzenden 
-- Indien nodig: contact op te nemen met ons team zodat we dit kunnen evalueren
+- Laat gebruikers inloggen als herhaaldelijk formulieren willen invullen 
+- Verspreid de inzendingen over iets meer tijd 
+- Neem contact op met het beheerteam als dit structureel een probleem vormt
 
 ## Gaat dit in tegen gewone gebruikers? 
 
@@ -65,6 +86,14 @@ De limiet is ruim genoeg voor gewoon gebruik, en enkel bedoeld om misbruik tegen
 - **Wacht 5 a 15 minuten, en probeer dan opnieuw. 
 - Dien je meerdere suggesties in? Verspreid ze wat in de tijd. 
 - Laat ons iets weten als het probleem blijft optreden, zeker al je werkt in een klas, organisatie of redactie. 
+
+## Instellingen (technisch overzicht)
+
+| Parameter         | Anonieme gebruikers                      | Ingelogde gebruikers   |
+| ----------------- | ---------------------------------------- | ---------------------- |
+| Sleutel           | `submission:{ip}`                        | `submission:{user_id}` |
+| Maximum pogingen  | 15                                       | 45                     |
+| Herstelperiode    | 60 sec.                                  | 60 sec.                |
 
 --- 
 
