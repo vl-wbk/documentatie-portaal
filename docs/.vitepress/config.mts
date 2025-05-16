@@ -86,7 +86,9 @@ export default withMermaid({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vl-wbk' }
+      { icon: 'facebook', link: 'https://www.facebook.com/vlaamswoordenboek' },
+      { icon: 'github', link: 'https://github.com/vl-wbk' }, 
+      { icon: 'discord', link: 'https://discord.gg/eXsyvdgx' },
     ]
   }
 })
