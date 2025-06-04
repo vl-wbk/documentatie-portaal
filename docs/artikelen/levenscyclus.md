@@ -1,11 +1,11 @@
-# Artikel levenscyclus en werkstroom
+# Levenscyclus van een artikel
 
-Dit document biedt een helder overzicht van de levenscyclus van artikelen binnen het nieuw VW-systeem.
-Het beschrijft de verschillende fasen die een artikel doorloopt, de bijhorende metadata, de rollen van (anonieme) gebruikers, redacteuren en eindredacteuren, en de acties die zij kunnen ondernamen.
-Dit stukje in de handleiding is bedoeld om redacteuren en eindredacteurs te ondersteunen bij het efficient beheren van artikelen gedurende het gehele publicatieproces.
+Dit document biedt een helder overzicht van de levenscyclus van artikelen binnen het Vlaams Woordenboek.
+Het beschrijft de verschillende fasen die een artikel doorloopt, de bijhorende metadata, de rollen van (anonieme) gebruikers, redacteurs en eindredacteurs, en de acties die zij kunnen ondernemen.
+Dit stukje in de handleiding is bedoeld om redacteurs en eindredacteurs te ondersteunen bij hun werk: het efficiënt bewerken en beheren van artikelen gedurende het gehele publicatieproces.
 
-Een artikel begint als een suggestie dat is aangeleverd door een gastgebruiker en doorloopt vervolgens verschillende fasen van bewerking, goedkeuring en publicatie.
-Tijdens dit proces kunnen redacteurs en eindredactezurs inhoud aanpassen, kwaliteit bewaken en bepalen of een artikel gebuplieerd, gearchiveerd of verwijderd moet worden.
+Een artikel begint als een suggestie die is aangeleverd door een 'invoerder', een al of niet geregistreerde gastgebruiker. Vervolgens doorloopt het verschillende fasen van bewerking, goedkeuring en publicatie.
+Tijdens dit proces kunnen redacteurs en eindredacteurs inhoud aanpassen, artikelen eenvormig maken en bepalen of een artikel gepubliceerd, gearchiveerd of verwijderd moet worden.
 
 Hier over volgt een gedetailleerde beschrijving van deze fasen en de mogelijke acties per fase.
 
@@ -21,17 +21,18 @@ Fasen worden in de hoofding gedocumenteerd met het volgende formaat:
 
 ## Nieuw/New: het begin van een artikel
 
-Wanneer een artikel wordt aangemaakt of als suggestie word ingestuurd, start het in de status **nieuw**. Dit betekend dat een gebruiker een suggestie heeft gedaan maar het artikel nog niet publiekelijk beschikbaar is.
-Het wacht op bewerking door een redacteur, die kan besluiten om het verder te verfijnen, archiveren, of om te vragen aan een administrator om het te verwijderen indien het niet relevant blijkt.
-Of als ongewenst bijdrage (bv. spam) word geintrepreteerd/ervaren.
+Wanneer een artikel wordt aangemaakt of als suggestie wordt ingestuurd, start het in de status **nieuw**. Dit betekent dat een gebruiker een suggestie heeft ingestuurd, maar het artikel nog niet publiekelijk beschikbaar is.
+Het wacht op bewerking door een redacteur, die kan besluiten om het verder te verfijnen, archiveren, of om te vragen aan een administrator om het te verwijderen indien het niet relevant blijkt
+of als ongewenste bijdrage (bv. spam) wordt beschouwd.
 
 In deze fase wordt de status automatisch op **Nieuw** ingesteld, met de oorsprong als **suggestie**.
-Het artikel blijft offline en er is nog geen reacteur of eindredacteur aan het artikel gekoppeld.
+Het artikel staat offline en er is nog geen redacteur of eindredacteur aan het artikel gekoppeld.
 
-Indien de gebruiker die de suggestie doet aangemeld is met zijn account zal zijn account ID gekoppeld worden aan de suggestie, en later bij publicatie de nodige herkenning krijgen bij het artikel,
-terwijl een anonieme gebruiker alleen de suggestie doet zonder enige vorm van persoonlijke gegevens achter te laten wegens bv. privacy redenen. hij/zij zal dan ook geen herkenning krijgen voor de suggestie.
+Er zijn twee types gebruikers (invoerders): anonieme en geregistreerde.
+Anonieme gebruikers kunnen een suggestie doen zonder persoonlijke gegevens achter te laten. Hun naam verschijnt niet onder het nieuwe artikel, een keer dat gepubliceerd is. Er is geen link tussen anonieme gebruikers en hun suggesties.
+Gebruikers kunnen zich, als ze dat wensen, registreren en zo een account aanmaken. Als zij een suggestie indienen, wordt hun account-ID aan die suggesties gekoppeld. Bij de publicatie krijgen die zo erkenning als oorspronkelijke indiener van artikel. In hun account kunnen zij de lijst zien van suggesties die ze ooit hebben ingediend. Zij kunnen ook een persoonlijke lijst van favoriete woorden aanleggen.
 
-### Acties in de Nieuw fase
+### Acties in de fase 'Nieuw'
 
 De volgende acties zijn mogelijk in deze fase. Om het overzicht te behouden geven we het visueel en textueel weer.
 
@@ -44,13 +45,13 @@ stateDiagram-v2
     NIEUW --> ARCHIEF: archiveren 
 ```
 
-- **Bewerken** om het artikel naar de redactiefase te verplaatsen.
-- **Archiveren** om het artikel te archiveren aangezien er wel een relevantie is maar toch het besluit word genomen om het niet te publiceren.
-- **Verwijderen**, mits er nog geen verdere bewerking heeft plaatsgevonden.
+- **Bewerken** het artikel gaat naar de redactiefase.
+- **Archiveren** het artikel wordt gearchiveerd. Het is mogelijk wel relevant, maar wordt voorlopig niet gepubliceerd.
+- **Verwijderen** het artikel is niet verder bewerkt en niet relevant.
 
-### Permissies binnen de nieuw fase 
+### Permissies binnen de fase 'Nieuw'
 
-Het volgende permissie overzicht is van kracht op artikel transities binnen de fase: 
+Het volgende permissieoverzicht is van toepassing op artikeltransities binnen de fase: 
 
 | Actie / Rol                              | Invoerder          | Redacteur          | Eindredacteur      | Administrator      | Ontwikkelaar       | 
 | :--------------------------------------- | :----------------: | :----------------: | :----------------: | :----------------: | :----------------: | 
