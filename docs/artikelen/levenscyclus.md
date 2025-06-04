@@ -140,16 +140,16 @@ Het volgende permissieoverzicht is van kracht op artikeltransities binnen de red
 
 ## Goedkeuring/Approval: De laatste controle 
 
-Wanneer een redacteur tevreden is met de bewerking, kan het artikel ter goedkeuring worden aangeboden aan een eindredacteur. 
-Deze beoordeelt de inhoud en redactionele kwaliteit en beslist of het artikel klaar is voor publicatie. De eindredacteur kan het artikel goedkeuren en publiceren of terugsturen voor verdere redactie. 
+Wanneer een redacteur tevreden is met de bewerking, wordt het artikel ter goedkeuring aangeboden aan een eindredacteur. 
+Die beoordeelt de inhoud en redactionele kwaliteit en beslist of het artikel klaar is voor publicatie. De eindredacteur kan het artikel goedkeuren en publiceren of terugsturen voor verdere redactie. 
 
 De eindredactezur krijgt in deze fase de verantwoordelijkheid over het artikel.
-Er is een duidelijke scheiding tussen redacteur en eindredacteur naast het feit dat een eindredacteur die ook het artikel heeft bewerkt zijn eigen artikelen niet kan goedkeuren of afwijzen. 
-Dit is geimplementeerd om een objectieve kwaliteitscontrole te garanderen. 
+Er is een duidelijke scheiding tussen redacteur en eindredacteur. Een eindredacteur die zelf een artikel heeft bewerkt, kan zijn eigen artikelen niet goedkeuren of afwijzen. 
+Deze werkwijze garandeert een objectieve kwaliteitscontrole. 
 
 ### Acties in de Goedkeuring/Approval fase 
 
-De volgende acties kunnen worden uitgevoerd binnen de artikel fase. Omdat deze geen fase wijziging krijgen na het uitvoeren van de actie zijn deze niet opgenomen binnen de visuele representatie.
+De volgende acties kunnen worden uitgevoerd binnen de artikelfase. Omdat de fase niet wijzigt na het uitvoeren van de acties zijn die niet opgenomen binnen de visuele representatie.
 
 ```mermaid
 stateDiagram-v2
@@ -161,14 +161,14 @@ stateDiagram-v2
     GOEDKEURING --> [*]: verwijderen
 ```
 
-- **Publiceren** als het artikel vordoet aan de kwaliteitsnormen. 
-- **Publicatie afwijzen** als er nog verdere aanpassing nodig zijn. 
-- **Archiveren** als publicatie niet wenselijk is maar toch word bijgehouden omtrent verschillende redenen.
-- **Verwijderen**, mites de gebruiker de rol heeft van administrator of ontwikkelaar.
+- **Publiceren** het artikel voldoet aan de kwaliteitsnormen. 
+- **Publicatie afwijzen** er zijn nog aanpassingen nodig. 
+- **Archiveren** de publicatie is nog niet gewenst, maar het artikel wordt toch bijgehouden om  verschillende redenen.
+- **Verwijderen**, kan alleen door de administrator of ontwikkelaar.
 
 ### Permissies binnen de goedkeuringsfase 
 
-Het volgende permissie overzicht is van kracht op artikel transities binnen de goedkeurings fase. 
+Het volgende permissieoverzicht is van kracht op artikeltransities binnen de goedkeuringsfase. 
 
 | Actie / Rol                              | Invoerder | Redacteur          | Eindredacteur      | Administrator      | Ontwikkelaar       | 
 | :--------------------------------------- | :-------: | :----------------: | :----------------: | :----------------: | :----------------: | 
@@ -179,10 +179,10 @@ Het volgende permissie overzicht is van kracht op artikel transities binnen de g
 
 ## Ontsluiting/Published: Publicatie 
 
-Zodra een artikel is goedgekeurd, wordt het gepubliceerd en toegankelijk gemaakt voor eindgebruikers. Dit markeert de afronding van het redactionele proces. 
-De metadata blijven grotendeels ongewijzigd, behalve dat de publicatie status op **Online** word gezet. als ook de tijdnotering en id van de eindredacteur worden genoteerd voor administratieve redenen. 
+Zodra een artikel is goedgekeurd, wordt het gepubliceerd en is het toegankelijk voor eindgebruikers. Hhet redactionele proces is afgerond. 
+De metadata blijven grotendeels ongewijzigd, behalve dat de publicatiestatus op **Online** wordt gezet. Bovendien worden de tijd en het id van de eindredacteur genoteerd voor administratieve doeleinden. 
 
-Ook in deze fase blijft de optie bestaan om het artikel terug te sturen naar redactie of naar het archief te verplaatsen, bijvoorbeeld wanneer het niet meer relevant of verouderd raakt. 
+Ook in deze fase kan het artikel indien nodig naar redactie worden teruggestuurd of naar het archief verplaatst, bijvoorbeeld wanneer het niet meer relevant is of verouderd raakt. 
 
 ```mermaid 
 stateDiagram-v2
@@ -195,17 +195,17 @@ stateDiagram-v2
 
 ### Acties in de Ontsluiting/Published fase
 
-- **Terug naar redactie** indien het artikel een gronding onderhoud door de redactie vereist en terug aangeboden moet worden ter controle. 
-- **Archiveren** indien het artikel niet meer relevant is in zijn huidige context
-- **Verwijderen**, mits de gebruiker de ùachtiging heeft van een administrator of ontwikkelaar. 
+- **Terug naar redactie** het artikel heeft een grondig onderhoud door de redactie nodig en moet terug ter controle worden aangeboden. 
+- **Archiveren** het artikel is niet meer relevant in zijn huidige context
+- **Verwijderen**, kan alleen door een administrator of ontwikkelaar. 
 
-#### Acties binnen de zelfde fase van het artikel
+#### Acties binnen dezelfde fase van het artikel
 
-- **Bewerken** het artikel kan worden aangepast door eindredacteurs bijvoorbeeld bij het verwerken van gebruikers meldingen. 
+- **Bewerken** het artikel kan door eindredacteurs worden aangepast, bijvoorbeeld bij het verwerken van gebruikersmeldingen. 
 
-### Permissies in de onsluitings fase
+### Permissies in de onsluitingsfase
 
-Het volgende permissie overzicht is van kracht op artikel transities binnen de publicatie status:
+Het volgende permissieoverzicht is van kracht op artikeltransities binnen de publicatiestatus:
 
 | Actie / Rol                              | Invoerder | Redacteur          | Eindredacteur      | Administrator      | Ontwikkelaar       | 
 | :--------------------------------------- | :-------: | :----------------: | :----------------: | :----------------: | :----------------: | 
@@ -215,11 +215,11 @@ Het volgende permissie overzicht is van kracht op artikel transities binnen de p
 
 ## Archief/Archived: artikel is niet langer meer actief 
 
-Wanneer een artikel zijn relevantie verliest, wordt het gearchiveerd en verdwijnt het uit de publieke omgeving. 
-Dit betekent niet dat het definitief verwijderd is, indien nodig kan het artikel nog worden hersteld. 
+Wanneer een artikel niet meer relevant is, wordt het gearchiveerd en verdwijnt het uit de publiek toegankelijke omgeving. 
+Dit betekent niet dat het definitief verwijderd is. Indien nodig kan het artikel nog worden hersteld. 
 
-In deze fase blijft de metadata ongewijzigd, behalve dat de publicatiestatus op `offline` word gezet.
-De eindredacteur en administrator kunnen bepalen of het artikel in het archief blijft, hersteld word of definitief verwijderd wordt. 
+In deze fase blijven de metadata ongewijzigd; alleen de publicatiestatus wordt op `offline` gezet.
+De eindredacteur en administrator kunnen bepalen of het artikel in het archief blijft, hersteld wordt of definitief verwijderd wordt. 
 
 ```mermaid 
 stateDiagram-v2
@@ -230,15 +230,15 @@ stateDiagram-v2
     ARCHIEF --> [*]: Verwijderen
 ```
 
-### Acties in de archief status: 
+### Acties in de archiefstatus: 
 
-- **Herstellen** indien het artikel ten onrechte gearchiveerd is. 
-- **Herwerken** indien het artikel gearchiveerd is maar terug willen publiceren nadat het een update heeft gekregen. 
-- **Verwijderen** indien het volledig uit het systeem moet verdwijnen.
+- **Herstellen** het artikel is ten onrechte gearchiveerd. 
+- **Herwerken** het artikel is gearchiveerd, maar kan weer gepubliceerd worden nadat het een update heeft gekregen. 
+- **Verwijderen** het artikel moet volledig uit het systeem verdwijnen.
 
-### Permissies in de archief status: 
+### Permissies in de archiefstatus: 
 
-Het volgende permissie overzicht is van kracht op artikel transitites binnen de archief status: 
+Het volgende permissieoverzicht is van kracht op artikeltransitites binnen de archiefstatus: 
 
 | Actie / Rol                        | Invoerder | Redacteur          | Eindredacteur      | Administrator      | Ontwikkelaar       | 
 | :--------------------------------- | :-------: | :----------------: | :----------------: | :----------------: | :----------------: | 
