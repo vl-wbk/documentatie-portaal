@@ -25,7 +25,7 @@ Wanneer een artikel wordt aangemaakt of als suggestie wordt ingestuurd, start he
 Het wacht op bewerking door een redacteur, die kan besluiten om het verder te verfijnen, archiveren, of om te vragen aan een administrator om het te verwijderen indien het niet relevant blijkt
 of als ongewenste bijdrage (bv. spam) wordt beschouwd.
 
-In deze fase wordt de status automatisch op **Nieuw** ingesteld, met de oorsprong als **suggestie**.
+In deze fase wordt de status automatisch op **Nieuw** ingesteld, met als oorsprong **suggestie**.
 Het artikel staat offline en er is nog geen redacteur of eindredacteur aan het artikel gekoppeld.
 
 Er zijn twee types gebruikers (invoerders): anonieme en geregistreerde.
