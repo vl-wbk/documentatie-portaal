@@ -15,7 +15,7 @@ Fasen worden in de hoofding gedocumenteerd met het volgende formaat:
 **Schema representatie/Technische representatie**
 :::
 
-## Inhoudstafel van het documentatie document
+## Inhoudstafel van het documentatiedocument
 
 [[toc]]
 
