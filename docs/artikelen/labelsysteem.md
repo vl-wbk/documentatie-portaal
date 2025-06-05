@@ -33,7 +33,7 @@ Als alles klaar is, klik je op "Opslaan", "Bevestigen" en "Volgende".
 
 - **Invoerinterface**: bij het woord "bakske" (auto) zie je bijvoorbeeld de labels *informeel, dialect* en *West-Vlaams* verschijnen. 
 - **Publieke weergave**: de labels bij het woord staan onder de beschrijving.
-- **Beheersconsole:** eindredacteurs en admins kunnen labels beheren: aanpassen, toelichten, aantal toepassingen bekijken en de bijhorende beschrijving geven. 
+- **Beheersconsole:** admins en ontwikkelaars kunnen labels beheren: aanpassen, toelichten, aantal toepassingen bekijken en de bijhorende beschrijving geven. Redacteurs en eindredacteurs kunnen alleen labels koppelen en ontkoppelen.
 
 ### Voorbeeldlabels 
 
@@ -47,25 +47,28 @@ Hieronder enkele voorbeeldlabels en hoe ze gebruikt worden:
 | **technisch**   | Gebruikt in vakjargon              | "router"                               | 
 | **sarcastisch** | Op ironische toon gebruikt         | "held" (voor iemand die iets dom doet) |
 
-## Regels voor labelgebruik 
+## Regels voor labelgebruik voor de redacteur en de eindredacteur
 
 - Gebruik labels **consistent** en volgens bestaande richtlijnen. 
-- **Twijfel je?** Laat het label weg en overleg met een eindredacteur. 
-- **Controleer eerst** of een label al bestaat, om dubbele en tegenstrijdige labels te vermijden. 
+- **Twijfel je?** Laat het label weg en overleg met een (andere) eindredacteur. 
 - **Maak nooit zelf nieuwe labels aan**, dit gebeurt enkel via de bevoegde personen.
-- **Mis je een label?**, meld dat aan de bevoegde persoon.
 - **Herbekijk regelmatig** of oudere labels nog kloppen. Taalgebruik is iets dat continu evolueert. 
+- **Mis je een label?**, meld dat aan de bevoegde persoon.
+
+## Let op bij het toevoegen van nieuwe labels (admins en ontwikkelaars)
+
+- **Controleer eerst** of een label al bestaat, om dubbele en tegenstrijdige labels te vermijden. 
 
 ## Onderhoud 
 
-Eindredacteurs en administrators zorgen ervoor dat het systeem up-to-date blijft. 
+Admins en ontwikkelaars zorgen ervoor dat het systeem up-to-date blijft. 
 Ze controleren op fouten en dubbels, en beheren nieuwe labels. 
 Elke verandering in het labelaanbod wordt indien nodig ook in deze documentatie opgenomen.
 
 ## Veelgestelde vragen (FAQ)
 
-- **Ik mis een label. Wat nu?** -> Vraag het aan een adminstrator zodat die het nodige kan doen. 
-- **Kan ik een verkeerd label verwijderen?** -> Meld het aan een eindredacteur of administrator. 
+- **Ik mis een label. Wat nu?** -> Meld het aan een adminstrator zodat die het nodige kan doen. 
+- **Kan ik een verkeerd label verwijderen?** -> Meld het aan een administrator. 
 - **Ziet de gebruiker elk label?** -> Ja, een gebruiker kan elk gekoppeld label zien. 
 - **Mag ik zelf een label aanmaken?** -> Nee, dat is voorbehouden aan de rol 'administrator'. 
 
