@@ -179,7 +179,7 @@ Het volgende permissieoverzicht is van kracht op artikeltransities binnen de goe
 
 ## Ontsluiting/Published: Publicatie 
 
-Zodra een artikel is goedgekeurd, wordt het gepubliceerd en is het toegankelijk voor eindgebruikers. Hhet redactionele proces is afgerond. 
+Zodra een artikel is goedgekeurd, wordt het gepubliceerd en is het toegankelijk voor eindgebruikers. Het redactionele proces is afgerond. 
 De metadata blijven grotendeels ongewijzigd, behalve dat de publicatiestatus op **Online** wordt gezet. Bovendien worden de tijd en het id van de eindredacteur genoteerd voor administratieve doeleinden. 
 
 Ook in deze fase kan het artikel indien nodig naar redactie worden teruggestuurd of naar het archief verplaatst, bijvoorbeeld wanneer het niet meer relevant is of verouderd raakt. 
