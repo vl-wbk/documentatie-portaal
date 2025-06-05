@@ -12,7 +12,6 @@ De invoerder, dat is de gebruiker die suggesties indient, vormt de basis van ons
 
 De geregistreerde invoerder kan bovendien: 
 
-- Eigen voorstellen bewerken, zolang ze niet in behandeling zijn bij een redacteur en in de conceptfase zitten -> KAN DIT?
 - De lijst met eigen suggesties doorzoeken
 - Een lijst met favoriete woorden aanmaken en doorzoeken
 
