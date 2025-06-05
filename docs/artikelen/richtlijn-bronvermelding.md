@@ -1,6 +1,6 @@
-# Richtlijnen voor Bronvermelding in de artikelen van het Vlaams woordenboek 
+# Richtlijnen voor bronvermelding in de artikelen van het Vlaams woordenboek 
 
-Voor redacteurs en eindredacteurs van het Vlaams Woordenboek 
+Voor gebruikers, redacteurs en eindredacteurs van het Vlaams Woordenboek 
 
 ## Doel en toepassing 
 
@@ -28,40 +28,39 @@ Een goed voorbeeld daarvan is bijvoorbeeld het volgende:
 
 ### 2. Gebruik geen vaste links 
 
-Bij voorkeur worden **geen URL's** opgenomen in de bronvermelding tenzij: 
+Bij voorkeur worden **geen URL's** opgenomen in de bronvermelding. Naar bronnen als online kranten- en tijdschriftartikelen of blogs verwijs je met (krant.be) of (blog.org), zonder actieve link. 
 
-- De pagina publiek toegankelijk is. 
-- De URL stabiel en specifiek is (bv. lemma op ANW). 
-- Het om illustratief materieel gaat (bv. blog, krant). 
+Voor woordenboeken zoals Van Dale Online vermeld je ook de lemmatitel in het woordenboek, eventueel over welke betekenis het gaat. Bijvoorbeeld:
 
-Voor commerciële of wijzigbare bronnen (zoals Van Dale Online): enkel naam, eventueel lemma en raadpleegdatum. 
+> (Dikke Van Dale online, sacoche betekenis 3)
 
 ### 3. Noteer altijd het regiolabel of stijlregister 
 
-Bij het overnemen van labels zoals `BN`, `NN`, `informeel`, `archaïsch`, enz, moet je: 
+Bij het overnemen van labels zoals `BE`, `NL`, `informeel`, `archaïsch`, enz, moet je: 
 
+- Eventueel het label BE omzetten naar BN, NL naar NN.
 - Expliciet noteren **uit welke bron** het label komt. 
 - Steeds de **raadpleegdatum** toevoegen. 
-- Indien afwezig of onduidelijk, niet zelf labelen zonder onderbouwing. 
+- Indien afwezig of onduidelijk, alleen labelen als je dat kunt onderbouwen. 
 
 ## Autoritatieve bronnen 
 
 ### 1. Dikke Van Dale (betaald of papieren versie)
 
-- Gebruik enkel de **volledige** versie (online met abonnement of papieren). 
-- Liever niet de gratis versie op **vandale.nl** -> dat is de "hedendaagse", beperkter en soms onnauwkeurig.
-- Toepassing: spelling, betekenis, etymologie, BN/NN-labels, stijlregisters. 
+- Gebruik enkel de **volledige** versie (online met abonnement of papieren). Verwijzing: 'Dikke Van Dale online'.
+- Liever niet de gratis versie op **vandale.nl** -> die is veel beperkter en minder nauwkeurkig dan de Dikke Van Dale.
+- Toepassing: spelling, betekenis, etymologie, BE/NL-labels, stijlregisters. 
 
 #### Vermelding 
 
 Een goed voorbeeld daarvan is het volgende: 
 
-> Van Dale Groot woordenboek van de Nederlandse taal, lemma voorbeeldzin, BN-label. Geraadpleegd op 10-04-2025.
+> Dikke Van Dale online, lemma voorbeeldzin, BN-label. Geraadpleegd op 10-04-2025.
 
 ### 2. Prisma hedendaags Nederlands Woordenboek (online, met abonnement) 
 
 - Compacter dan Van Dale, maar zeer actueel. 
-- Enkel de betaalde versie gebruiken.  
+- Enkel de betaalde versie gebruiken. Verwijzing: 'Prisma Hedendaags Nederlands online' 
 - Toepassing: actuele betekenissen, gebruiksinformatie. 
 
 #### Vermelding 
@@ -72,21 +71,21 @@ Een goed voorbeeld daarvan is het volgende:
 
 ### 3. Typisch Vlaams - Ludo Permentier 
 
-- Papieren boek, maar ook beschikbaar op Ensie.nl 
+- Papieren boek, maar ook beschikbaar op Ensie.nl. Verwijzing 'Typisch Vlaams'. 
 - Gebruik als bron voor specifiek Vlaams woordgebruik of zegswijzen.
-- Uit 2015, wordt niet meer bijgewerkt
+- Uit 2015, wordt niet meer bijgewerkt.
 
 #### Vermelding 
 
 Een goed voorbeeld daarvan is het volgende: 
 
-> Permentier, Ludo. Typisch Vlaams. Geraadpleegd op 10-04-2025 via Ensie.nl.
+> Typisch Vlaams. Geraadpleegd op 10-04-2025 via Ensie.nl.
 
 ### 4. Algemeen Nederlands Woordenboek (ANW)
 
-- Online woordenboek van het Instituut voor de Nederlands Taal. 
+- Online woordenboek van het Instituut voor de Nederlands Taal. Verwijzing 'Algemeen Nederlands Woordenboek (ANW)'.
 - Zeer geschikt voor lexicale en contextuele onderbouwing. 
-- **Let op:** labelgebruik (zoals BN/NN) wordt hier iets ruimer geinterpreteerd dan bij Van Dale. 
+- **Let op:** labelgebruik (hier '(vooral) in België' en '(vooral) in Nederland') wordt hier iets ruimer geinterpreteerd dan bij Van Dale. 
 
 #### Vermelding 
 
@@ -96,8 +95,9 @@ Een goed voorbeeld daarvan is het volgende:
 
 ### 5. Taaladvies.net 
 
-- Officiële adviezen van de Taalunie.
+- Officiële taaladviezen van de Taalunie.
 - Gebruik bij spelling, grammatica, vaste uitdrukkingen en gebruiksnormen.
+- Labels 'standaardtaal in België' -> BN, 'standaardtaal in Nederland' -> NN, 'status onduidelijk' -> Kandidaat BN
 
 #### Vermelding 
 
@@ -107,7 +107,7 @@ Een goed voorbeeld daarvan is het volgende:
 
 ### 6. Team Taaladvies (Taaltelefoon) 
 
-- Adviezen die niet (of nog niet) op Taaladvies.net staan.
+- Adviezen die niet (of nog niet) op Taaladvies.net staan. Werwijzing: 'Team Taaladvies'
 - Ook taaladvies uit de vroegere website VRT Taal valt hieronder.
 
 #### Vermelding 
@@ -128,9 +128,10 @@ Deze bronnen zijn niet geschikt om spelling, betekenissen of regiolabels op te b
 
 #### Vermelding 
 
+Vermeld de algemene URL (zonder actieve link) en waar mogelijk de datum van het artikel.
 Een goed voorbeeld daarvan is het volgende:  
 
-> De Standaard, artikel ‘Ik heb daar precies geen goesting voor’, 12-03-2023. (voor context, niet als norm)
+> 'Ik heb daar precies geen goesting voor’ (standaard.be, artikel van 12-03-2023)
 
 ## Toepassingsvoorbeelden 
 
@@ -146,14 +147,14 @@ Hier zijn enkele toepassingsvoorbeelden:
 
 ### 3. Voor illustratief gebruik 
 
-> “Deze betekenis komt niet voor in normatieve bronnen, maar wordt frequent gebruikt in blogs, zie o.a. Taalpraat (blogbericht van 03-03-2025).”
+> “Deze betekenis komt niet voor in normatieve bronnen, maar wordt frequent gebruikt in blogs, bijvoorbeeld Taalpraat.nl (blogbericht van 03-03-2025).”
 
 ## Werkproces voor redacteurs 
 
 1. **Controleer of je bron ècht bestaat en geldig is** 
-2. **Noteer het lemma + bron + datum**
+2. **Noteer bij woordenboeken het lemma + bron + datum van raadpleging**
 3. **Neem labels of stijlkenmerken alleen over als ze expliciet zo vermeld staan** 
-4. **Gebruik voorbeeldmateriaal uitsluitend illustratief, met juiste bronvermelding**
+4. **Gebruik voorbeeldmateriaal uitsluitend illustratief, met juiste bronvermelding, maar zonder actieve link**
 
 ## Samenvatting in checklistvorm 
 
