@@ -29,7 +29,7 @@ In deze fase wordt de status automatisch op **Nieuw** ingesteld, met als oorspro
 Het artikel staat offline en er is nog geen redacteur of eindredacteur aan het artikel gekoppeld.
 
 Er zijn twee types gebruikers (invoerders): anonieme en geregistreerde.
-Anonieme gebruikers kunnen een suggestie doen zonder persoonlijke gegevens achter te laten. Hun naam verschijnt niet onder het nieuwe artikel, een keer dat gepubliceerd is. Er is geen link tussen anonieme gebruikers en hun suggesties.
+Anonieme gebruikers kunnen een suggestie doen zonder persoonlijke gegevens achter te laten. Bij publicatie verschijnt hun naam niet onder het nieuwe artikel. Er is geen link tussen anonieme gebruikers en hun suggesties.
 Gebruikers kunnen zich, als ze dat wensen, registreren en zo een account aanmaken. Als zij een suggestie indienen, wordt hun account-ID aan die suggesties gekoppeld. Bij de publicatie krijgen die zo erkenning als oorspronkelijke indiener van artikel. In hun account kunnen zij de lijst zien van suggesties die ze ooit hebben ingediend. Zij kunnen ook een persoonlijke lijst van favoriete woorden aanleggen.
 
 ### Acties in de fase 'Nieuw'
