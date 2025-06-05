@@ -4,7 +4,7 @@ Dit document biedt een helder overzicht van de levenscyclus van artikelen binnen
 Het beschrijft de verschillende fasen die een artikel doorloopt, de bijhorende metadata, de rollen van (anonieme) gebruikers, redacteurs en eindredacteurs, en de acties die zij kunnen ondernemen.
 Dit stukje in de handleiding is bedoeld om redacteurs en eindredacteurs te ondersteunen bij hun werk: het efficiënt bewerken en beheren van artikelen gedurende het gehele publicatieproces.
 
-Een artikel begint als een suggestie die is aangeleverd door een 'invoerder', een al of niet geregistreerde gastgebruiker. Vervolgens doorloopt het verschillende fasen van bewerking, goedkeuring en publicatie.
+Een artikel begint als een suggestie die is aangeleverd door een 'invoerder', een al of niet geregistreerde gastgebruiker. Vervolgens doorloopt die suggestie verschillende fasen van bewerking, goedkeuring en publicatie als artikel.
 Tijdens dit proces kunnen redacteurs en eindredacteurs inhoud aanpassen, artikelen eenvormig maken en bepalen of een artikel gepubliceerd, gearchiveerd of verwijderd moet worden.
 
 Hier over volgt een gedetailleerde beschrijving van deze fasen en de mogelijke acties per fase.
