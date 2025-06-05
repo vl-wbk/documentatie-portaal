@@ -19,7 +19,7 @@ Fasen worden in de hoofding gedocumenteerd met het volgende formaat:
 
 [[toc]]
 
-## Nieuw/New: het begin van een artikel
+## Nieuw: het begin van een artikel
 
 Wanneer een artikel wordt aangemaakt of als suggestie wordt ingestuurd, start het in de status **nieuw**. Dit betekent dat een gebruiker een suggestie heeft ingestuurd, maar het artikel nog niet publiekelijk beschikbaar is.
 Het wacht op bewerking door een redacteur, die kan besluiten om het verder te verfijnen, archiveren, of om te vragen aan een administrator om het te verwijderen indien het niet relevant blijkt
