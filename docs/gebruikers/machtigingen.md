@@ -70,7 +70,7 @@ Wanneer een nieuw woord wort aangeleverd, doorloopt het een vast traject. Hier v
 
 Voor een vlotte samenwerking raden we aan: 
 
-- Invoerder: Bekijk eerst welke kwesties in aanmerking komen voor een artikel in het Vlaams Woordenboek. Wees zo compleet mogelijk in je beschrijving en je voorbeeldzinnen.
+- Invoerder: Lees eerst de richtlijnen voor opname van artikelen in het Vlaams Woordenboek. Wees zo precies mogelijk in je beschrijving en je voorbeeldzinnen.
 - Redacteur en Eindredacteur: Raadpleeg bij twijfel eerst de redactionele richtlijnen. Vraag indien nodig uitleg bij de administrator.
 - Iedereen: Meld technische problemen direct aan ontwikkelaars 
 - Iedereen: Werk constructief samen voor de beste resultaten 
