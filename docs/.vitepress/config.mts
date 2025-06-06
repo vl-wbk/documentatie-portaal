@@ -67,6 +67,15 @@ export default withMermaid({
       },
 
       {
+        text: "Communicatie",
+        collapsed: true, 
+        link: '/communicatie',
+        items: [
+          //
+        ],
+      },
+
+      {
         text: 'Varia', 
         collapsed: true, 
         items: [
