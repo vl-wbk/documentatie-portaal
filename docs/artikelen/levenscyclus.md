@@ -84,15 +84,11 @@ stateDiagram-v2
 
 het volgende permissie overzicht is van kracht op artikel transities binnen de fase: 
 
-:::danger
-***fase is nog niet geintegreerd in deze fase van het artikel***
-:::
-
 | Actie / Rol                              | Invoerder          | Redacteur          | Eindredacteur      | Administrator      | Ontwikkelaar       | 
 | :--------------------------------------- | :----------------: | :----------------: | :----------------: | :----------------: | :----------------: | 
-| **Nieuw > Redactie**                     | | | | |
-| **Nieuw > Archief**                      | | | | |
-| **Nieuw > * (verwijderen)***             | | | | |
+| **Nieuw > Redactie**                     | :x:                | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| **Nieuw > Archief**                      | :x:                | :x:                | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| **Nieuw > * (verwijderen)***             | :x:                | :x:                | :x:                | :white_check_mark: | :white_check_mark: |
 
 ## Redactie/Draft: de inhoudelijke bewerking
 
