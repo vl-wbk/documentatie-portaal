@@ -1,10 +1,10 @@
-# Deactiveren en heractiveren van accounts bij scheiding van gebruikersvoorwaarden
+# Deactiveren en heractiveren van accounts bij schending van gebruikersvoorwaarden
 
-We vinden het belangrijk dat het Vlaams Woordenboek een veilige, eerlijke en prettige plek is voor iedereen. 
-In dit handleidingsdocument leggen we duidelijk uit wat er gebeurt als iemand de gebruikersvoorwaarden schendt.
+We vinden het belangrijk dat het Vlaams Woordenboek een veilige, open en prettige plek is voor iedereen. 
+In dit deel van de handleiding leggen we duidelijk uit wat er gebeurt als iemand de gebruikersvoorwaarden schendt.
 Je leest ook hoe je je account weer kunt terugkrijgen als het (tijdelijk) is gedeactiveerd. 
 
-Of je nu per ongeluk iets fout hebt gedaan of er sprake is van een misverstand, we zorgen voor een duidelijke communicatielijn en eerlijke procedures. 
+Of je nu per ongeluk iets fout hebt gedaan of er sprake is van een misverstand, we zorgen voor een duidelijke communicatielijn en eerlijke, transparante procedures. 
 
 ## Wanneer wordt een account gedeactiveerd? 
 
@@ -20,7 +20,7 @@ Voorbeelden hiervan zijn:
 
 - Het plaatsen van aanstootgevende, gewelddadige of discriminerende inhoud buiten de context van een woordenboekartikel. 
 - Het lastigvallen, intimideren of bedreigen van andere gebruikers. 
-- Spam of ongewenste reclame verspreiden via het meldings- of suggestieformulier. 
+- Spam of ongewenste reclame verspreiden via het meldings-, suggestie- of feedbackformulier. 
 - Inbreuk maken op auteursrechten of gebruik maken van andermans creatief werk zonder toestemming. 
 - Zich voordoen als iemand anders of misleiding van andere gebruikers. 
 - Pogingen tot hacking of ongewenst manipuleren van de website. 
@@ -50,7 +50,7 @@ Bij herhaalde of ernstige overtredingen schakelen we je account uit voor meerder
 
 Als je account is gedeactiveerd: 
 
-- Kan je niet meer inloggen of deelnemen aan de community binnen het platform van het Vlaams Woordenboek. 
+- Kun je niet meer inloggen of deelnemen aan de community binnen het platform van het Vlaams Woordenboek. 
 - Kunnen eerder geplaatste berichten en/of inhoud van jou worden verwijderd. 
 - In ernstige gevallen kan verdere actie volgen, bijvoorbeeld juridische stappen. 
 
@@ -58,11 +58,11 @@ We nemen deze stappen weloverwogen en zorgen altijd voor een goede onderbouwing.
 
 ## Kan mijn account worden hersteld? 
 
-Ja in sommige gevallen kun je een gedactiveerd account laten heractiveren. We leggen hieronder uit in welke gevallen dat mogelijk is en wat je ervoor moet doen. 
+Ja, in sommige gevallen kunnen we een gedactiveerd account opnieuw activeren. We leggen hieronder uit in welke gevallen dat mogelijk is en wat je ervoor moet doen. 
 
 ### Wanneer is heractivering mogelijk? 
 
-We overwegen een heractivering van je account als je voldoet aan een van de volgende criteria:
+We bekijken een heractivering van je account als je voldoet aan minstens een van de volgende criteria:
 
 - Het gaat om een lichte of eerste overtreding.
 - Je denkt dat je account onterecht is gedeactiveerd (bijvoorbeeld een misverstand of fout in ons systeem) en je kunt dat aantonen of beargumenteren. 
@@ -80,8 +80,8 @@ Moderators en beheerders bekijken je verzoek zorgvuldig en geven je binnen een r
 
 #### 3. Reactivering (indien goedgekeurd)
 
-Als we je verzoek goedkeuren, activeren we je account weer. 
-Let wel, in sommige gevallen stellen we voorwaarden, zoals het volgen van richtlijnen of het erkennen van de gedragscode. 
+Als we je verzoek goedkeuren, activeren we je account opnieuw. 
+Let wel, in sommige gevallen stellen we voorwaarden, zoals het volgen van richtlijnen of het erkennen van de gebruikersvoorwaarden. 
 
 #### 4. Terugkoppeling 
 

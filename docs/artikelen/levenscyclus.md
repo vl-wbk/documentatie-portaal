@@ -1,11 +1,11 @@
-# Artikel levenscyclus en werkstroom
+# Levenscyclus van een artikel
 
-Dit document biedt een helder overzicht van de levenscyclus van artikelen binnen het nieuw VW-systeem.
-Het beschrijft de verschillende fasen die een artikel doorloopt, de bijhorende metadata, de rollen van (anonieme) gebruikers, redacteuren en eindredacteuren, en de acties die zij kunnen ondernamen.
-Dit stukje in de handleiding is bedoeld om redacteuren en eindredacteurs te ondersteunen bij het efficient beheren van artikelen gedurende het gehele publicatieproces.
+Dit document biedt een helder overzicht van de levenscyclus van artikelen binnen het Vlaams Woordenboek.
+Het beschrijft de verschillende fasen die een artikel doorloopt, de bijhorende metadata, de rollen van (anonieme) gebruikers, redacteurs en eindredacteurs, en de acties die zij kunnen ondernemen.
+Dit stukje in de handleiding is bedoeld om redacteurs en eindredacteurs te ondersteunen bij hun werk: het efficiënt bewerken en beheren van artikelen gedurende het gehele publicatieproces.
 
-Een artikel begint als een suggestie dat is aangeleverd door een gastgebruiker en doorloopt vervolgens verschillende fasen van bewerking, goedkeuring en publicatie.
-Tijdens dit proces kunnen redacteurs en eindredactezurs inhoud aanpassen, kwaliteit bewaken en bepalen of een artikel gebuplieerd, gearchiveerd of verwijderd moet worden.
+Een artikel begint als een suggestie die is aangeleverd door een 'invoerder', een al of niet geregistreerde gastgebruiker. Vervolgens doorloopt die suggestie verschillende fasen van bewerking, goedkeuring en publicatie als artikel.
+Tijdens dit proces kunnen redacteurs en eindredacteurs inhoud aanpassen, artikelen eenvormig maken en bepalen of een artikel gepubliceerd, gearchiveerd of verwijderd moet worden.
 
 Hier over volgt een gedetailleerde beschrijving van deze fasen en de mogelijke acties per fase.
 
@@ -15,23 +15,24 @@ Fasen worden in de hoofding gedocumenteerd met het volgende formaat:
 **Schema representatie/Technische representatie**
 :::
 
-## Inhoudstafel van het documentatie document
+## Inhoudstafel van het documentatiedocument
 
 [[toc]]
 
-## Nieuw/New: het begin van een artikel
+## Nieuw: het begin van een artikel
 
-Wanneer een artikel wordt aangemaakt of als suggestie word ingestuurd, start het in de status **nieuw**. Dit betekend dat een gebruiker een suggestie heeft gedaan maar het artikel nog niet publiekelijk beschikbaar is.
-Het wacht op bewerking door een redacteur, die kan besluiten om het verder te verfijnen, archiveren, of om te vragen aan een administrator om het te verwijderen indien het niet relevant blijkt.
-Of als ongewenst bijdrage (bv. spam) word geintrepreteerd/ervaren.
+Wanneer een artikel wordt aangemaakt of als suggestie wordt ingestuurd, start het in de status **nieuw**. Dit betekent dat een gebruiker een suggestie heeft ingestuurd, maar het artikel nog niet publiekelijk beschikbaar is.
+Het wacht op bewerking door een redacteur, die kan besluiten om het verder te verfijnen, archiveren, of om te vragen aan een administrator om het te verwijderen indien het niet relevant blijkt
+of als ongewenste bijdrage (bv. spam) wordt beschouwd.
 
-In deze fase wordt de status automatisch op **Nieuw** ingesteld, met de oorsprong als **suggestie**.
-Het artikel blijft offline en er is nog geen reacteur of eindredacteur aan het artikel gekoppeld.
+In deze fase wordt de status automatisch op **Nieuw** ingesteld, met als oorsprong **suggestie**.
+Het artikel staat offline en er is nog geen redacteur of eindredacteur aan het artikel gekoppeld.
 
-Indien de gebruiker die de suggestie doet aangemeld is met zijn account zal zijn account ID gekoppeld worden aan de suggestie, en later bij publicatie de nodige herkenning krijgen bij het artikel,
-terwijl een anonieme gebruiker alleen de suggestie doet zonder enige vorm van persoonlijke gegevens achter te laten wegens bv. privacy redenen. hij/zij zal dan ook geen herkenning krijgen voor de suggestie.
+Er zijn twee types gebruikers (invoerders): anonieme en geregistreerde.
+Anonieme gebruikers kunnen een suggestie doen zonder persoonlijke gegevens achter te laten. Bij publicatie verschijnt hun naam niet onder het nieuwe artikel. Er is geen link tussen anonieme gebruikers en hun suggesties.
+Gebruikers kunnen zich, als ze dat wensen, registreren en zo een account aanmaken. Als zij een suggestie indienen, wordt hun account-ID aan die suggesties gekoppeld. Bij de publicatie krijgen die zo erkenning als oorspronkelijke indiener van artikel. In hun account kunnen zij de lijst zien van suggesties die ze ooit hebben ingediend. Zij kunnen ook een persoonlijke lijst van favoriete woorden aanleggen.
 
-### Acties in de Nieuw fase
+### Acties in de fase 'Nieuw'
 
 De volgende acties zijn mogelijk in deze fase. Om het overzicht te behouden geven we het visueel en textueel weer.
 
@@ -44,13 +45,13 @@ stateDiagram-v2
     NIEUW --> ARCHIEF: archiveren 
 ```
 
-- **Bewerken** om het artikel naar de redactiefase te verplaatsen.
-- **Archiveren** om het artikel te archiveren aangezien er wel een relevantie is maar toch het besluit word genomen om het niet te publiceren.
-- **Verwijderen**, mits er nog geen verdere bewerking heeft plaatsgevonden.
+- **Bewerken** het artikel gaat naar de redactiefase.
+- **Archiveren** het artikel wordt gearchiveerd. Het is mogelijk wel relevant, maar wordt voorlopig niet gepubliceerd.
+- **Verwijderen** het artikel is niet verder bewerkt en niet relevant.
 
-### Permissies binnen de nieuw fase 
+### Permissies binnen de fase 'Nieuw'
 
-Het volgende permissie overzicht is van kracht op artikel transities binnen de fase: 
+Het volgende permissieoverzicht is van toepassing op artikeltransities binnen de fase: 
 
 | Actie / Rol                              | Invoerder          | Redacteur          | Eindredacteur      | Administrator      | Ontwikkelaar       | 
 | :--------------------------------------- | :----------------: | :----------------: | :----------------: | :----------------: | :----------------: | 
@@ -60,12 +61,10 @@ Het volgende permissie overzicht is van kracht op artikel transities binnen de f
 
 ## OUD VW/ExternalData: migratie uit de vorige versie van het Vlaams Woordenboek
 
-Sommige artikelen worden niet nieuw aangemaakt, maar overgezet vanuit een ouder systeem door een ontwikkelaar van het nieuwe Vlaams Woordenboek.
-Deze artikelen krijgen automatisch de status `ExternalData`, met de oorsprong als `v1` in tegenstelling tot de suggesties worden deze direct online geplaatst,
-maar voorzien van een disclaimer die aangeeft dat ze nog niet geregideerd zijn. Dit waarborgt de transparantie over de kwaliteit van de content.
+Sommige artikelen worden niet nieuw aangemaakt, maar zijn vanuit een ouder systeem overgezet door een ontwikkelaar van het nieuwe Vlaams Woordenboek.
+Deze artikelen krijgen automatisch de status `ExternalData`, met de oorsprong als `v1`. In tegenstelling tot suggesties worden die direct online geplaatst en voorzien van een disclaimer die aangeeft dat ze nog niet geredigeerd zijn en dat er dus mogelijk gebreken zijn. Dit zorgt voor transparantie over de kwaliteit van de content.
 
-Hierbij wordt de oorsprong ingesteld op 'v1', en de melding bevat een disclaimer over de mogelijke gebreken in de inhoud.
-Een redacteur kan deze artikelen oppakken om ze te bewerken of, indien ze niet langer relevant zijn, direct archiveren. Terwijl een administrator of een ontwikkelaar artikelen kan verwijderen indien nodig.
+Een redacteur kan deze artikelen oppikken om ze te bewerken of, indien ze niet langer relevant zijn, direct te archiveren. Een beheerder of een ontwikkelaar kan indien nodig artikelen verwijderen.
 
 ```mermaid
 stateDiagram-v2
@@ -76,13 +75,13 @@ stateDiagram-v2
     ExternalData --> ARCHIEF: archiveren 
 ```
 
-- **Bewerken** om het artikel naar de redactiefase te verplaatsen.
-- **Archiveren** om het artikel te archiveren aangezien er wel een relevantie is maar toch het besluit word genomen om het niet te publiceren.
-- **Verwijderen**, mits er nog geen verdere bewerking heeft plaatsgevonden.
+- **Bewerken** het artikel wordt naar de redactiefase verplaatst.
+- **Archiveren** het artikel wordt gearchiveerd. Het is mogelijk wel relevant, maar wordt voorlopig niet gepubliceerd.
+- **Verwijderen** het artikel is niet verder bewerkt en niet relevant.
 
-### Permissies binnen de nieuw fase 
+### Permissies binnen de fase 'Nieuw' 
 
-het volgende permissie overzicht is van kracht op artikel transities binnen de fase: 
+het volgende permissieoverzicht is van toepassing op artikeltransities binnen de fase: 
 
 | Actie / Rol                              | Invoerder          | Redacteur          | Eindredacteur      | Administrator      | Ontwikkelaar       | 
 | :--------------------------------------- | :----------------: | :----------------: | :----------------: | :----------------: | :----------------: | 
@@ -92,12 +91,12 @@ het volgende permissie overzicht is van kracht op artikel transities binnen de f
 
 ## Redactie/Draft: de inhoudelijke bewerking
 
-Een redacteur neemt een artikel uit de vorige fasen op zich en begint met de inhoudelijke en taalkundige verbetering. Dit is een cruciale stap waarin de kwaliteit van de content wordt gewaarborgd.
-Tijdens deze fase kan het artikel al online zijn, denk bv aan het oplossen van meldingen die gebeurd zijn voor het artikel.
+Een redacteur pikt een artikel uit een van de vorige fasen (nieuw of external data) op en begint met de inhoudelijke en taalkundige bewerking en correctie. Dit is een cruciale stap waarbij de kwaliteit van de content wordt gewaarborgd.
+Tijdens deze fase kan het artikel al online staan, zoals wanneer er meldingen die bij een artikel zijn binnengekomen worden opgelost.
 
 De redacteur die het artikel claimt, wordt geregistreerd als verantwoordelijke.
-Zodra het artikel voldoende bewerkt is, kan het worden doorgestuurd naar de eindredacteur ter goedkeuring.
-Indien nodig kan het echter ook de redacteur ontkoppeld worden van het artikel en verwijderd worden uit de databank of direct worden gearchiveerd.
+Zodra het artikel voldoende bewerkt is, kan het naar de eindredacteur worden doorgestuurd ter goedkeuring.
+Indien nodig kan het ook losgekoppeld worden van de redacteur en verwijderd worden uit de databank of direct worden gearchiveerd.
 
 ### Acties in deze fase
 
@@ -113,20 +112,20 @@ stateDiagram-v2
     REDACTIE --> ARCHIEF: Archiveren
 ```
 
-- **Insturen** indien de reacteur klaar is met de nodige bewerkingen kan hij/zij deze insturen voor publicatie.
-- **Archiveren** om het artikel te archiveren aangezien er wel een relevantie is maar toch het besluit word genomen om het niet te publiceren.
-- **Ontkoppelen** indien de redacteur het artikel opzich heeft genomen maar het werk is te complex of heeft geen ruimte meer heeft om het te behandelen kan hij/zij ontkoppeld worden als redacteur
-- **Verwijderen**, mits de gebruiker de rol heeft van administrator of ontwikkelaar.
+- **Insturen** zodra de redacteur klaar is met bewerken kan hij/zij het insturen voor publicatie.
+- **Archiveren** als het artikel mogelijk wel relevant is, maar het (voorlopig) toch niet gepubliceerd wordt.
+- **Ontkoppelen** indien de redacteur het artikel op zich heeft genomen maar het werk toch te complex blijkt, of de redacteur heeft geen ruimte meer om het te behandelen, dan kan hij of zij als redacteur ontkoppeld worden. Het artikel komt weer vrij en kan door een andere redacteur worden opgepikt.
+- **Verwijderen**, kan alleen door de administrator of ontwikkelaar.
 
-#### Acties binnen de zelfde fase van het artikel
+#### Acties binnen dezelfde fase van het artikel
 
-De volgende acties kunnen worden uitgevoerd binnen de artikel fase. Omdat deze geen fase wijziging krijgen na het uitvoeren van de actie zijn deze niet opgenomen binnen de visuele representatie.
+De volgende acties kunnen worden uitgevoerd binnen de artikelfase. Omdat de fase niet wijzigt nadat de actie is uitgevoerd, zijn deze niet opgenomen binnen de visuele representatie.
 
-- **Bewerken** het artikel behoud zijn status maar blijft in de huidige status.
+- **Bewerken** het artikel blijft in de huidige status.
 
-### Permissies binnen de redactiefase 
+### Permissies binnen de redactionele fase 
 
-Het volgende permissie overzicht is van kracht op artikel transities binnen de redactionele fase: 
+Het volgende permissieoverzicht is van kracht op artikeltransities binnen de redactionele fase: 
 
 | Actie / Rol                              | Invoerder | Redacteur                       | Eindredacteur                   | Administrator                   |  Ontwikkelaar                   | 
 | :--------------------------------------- | :-------: | :-----------------------------: | :-----------------------------: | :-----------------------------: | :-----------------------------: | 
@@ -137,16 +136,16 @@ Het volgende permissie overzicht is van kracht op artikel transities binnen de r
 
 ## Goedkeuring/Approval: De laatste controle 
 
-Wanneer een redacteur tevreden is met de bewerking, kan het artikel ter goedkeuring worden aangeboden aan een eindredacteur. 
-Deze beoordeelt de inhoud en redactionele kwaliteit en beslist of het artikel klaar is voor publicatie. De eindredacteur kan het artikel goedkeuren en publiceren of terugsturen voor verdere redactie. 
+Wanneer een redacteur tevreden is met de bewerking, wordt het artikel ter goedkeuring aangeboden aan een eindredacteur. 
+Die beoordeelt de inhoud en redactionele kwaliteit en beslist of het artikel klaar is voor publicatie. De eindredacteur kan het artikel goedkeuren en publiceren of terugsturen voor verdere redactie. 
 
 De eindredactezur krijgt in deze fase de verantwoordelijkheid over het artikel.
-Er is een duidelijke scheiding tussen redacteur en eindredacteur naast het feit dat een eindredacteur die ook het artikel heeft bewerkt zijn eigen artikelen niet kan goedkeuren of afwijzen. 
-Dit is geimplementeerd om een objectieve kwaliteitscontrole te garanderen. 
+Er is een duidelijke scheiding tussen redacteur en eindredacteur. Een eindredacteur die zelf een artikel heeft bewerkt, kan zijn eigen artikelen niet goedkeuren of afwijzen. 
+Deze werkwijze garandeert een objectieve kwaliteitscontrole. 
 
 ### Acties in de Goedkeuring/Approval fase 
 
-De volgende acties kunnen worden uitgevoerd binnen de artikel fase. Omdat deze geen fase wijziging krijgen na het uitvoeren van de actie zijn deze niet opgenomen binnen de visuele representatie.
+De volgende acties kunnen worden uitgevoerd binnen de artikelfase. Omdat de fase niet wijzigt na het uitvoeren van de acties zijn die niet opgenomen binnen de visuele representatie.
 
 ```mermaid
 stateDiagram-v2
@@ -158,14 +157,14 @@ stateDiagram-v2
     GOEDKEURING --> [*]: verwijderen
 ```
 
-- **Publiceren** als het artikel vordoet aan de kwaliteitsnormen. 
-- **Publicatie afwijzen** als er nog verdere aanpassing nodig zijn. 
-- **Archiveren** als publicatie niet wenselijk is maar toch word bijgehouden omtrent verschillende redenen.
-- **Verwijderen**, mites de gebruiker de rol heeft van administrator of ontwikkelaar.
+- **Publiceren** het artikel voldoet aan de kwaliteitsnormen. 
+- **Publicatie afwijzen** er zijn nog aanpassingen nodig. 
+- **Archiveren** de publicatie is nog niet gewenst, maar het artikel wordt toch bijgehouden om  verschillende redenen.
+- **Verwijderen**, kan alleen door de administrator of ontwikkelaar.
 
 ### Permissies binnen de goedkeuringsfase 
 
-Het volgende permissie overzicht is van kracht op artikel transities binnen de goedkeurings fase. 
+Het volgende permissieoverzicht is van kracht op artikeltransities binnen de goedkeuringsfase. 
 
 | Actie / Rol                              | Invoerder | Redacteur          | Eindredacteur      | Administrator      | Ontwikkelaar       | 
 | :--------------------------------------- | :-------: | :----------------: | :----------------: | :----------------: | :----------------: | 
@@ -176,10 +175,10 @@ Het volgende permissie overzicht is van kracht op artikel transities binnen de g
 
 ## Ontsluiting/Published: Publicatie 
 
-Zodra een artikel is goedgekeurd, wordt het gepubliceerd en toegankelijk gemaakt voor eindgebruikers. Dit markeert de afronding van het redactionele proces. 
-De metadata blijven grotendeels ongewijzigd, behalve dat de publicatie status op **Online** word gezet. als ook de tijdnotering en id van de eindredacteur worden genoteerd voor administratieve redenen. 
+Zodra een artikel is goedgekeurd, wordt het gepubliceerd en is het toegankelijk voor eindgebruikers. Het redactionele proces is afgerond. 
+De metadata blijven grotendeels ongewijzigd, behalve dat de publicatiestatus op **Online** wordt gezet. Bovendien worden de tijd en het id van de eindredacteur genoteerd voor administratieve doeleinden. 
 
-Ook in deze fase blijft de optie bestaan om het artikel terug te sturen naar redactie of naar het archief te verplaatsen, bijvoorbeeld wanneer het niet meer relevant of verouderd raakt. 
+Ook in deze fase kan het artikel indien nodig naar redactie worden teruggestuurd of naar het archief verplaatst, bijvoorbeeld wanneer het niet meer relevant is of verouderd raakt. 
 
 ```mermaid 
 stateDiagram-v2
@@ -192,17 +191,17 @@ stateDiagram-v2
 
 ### Acties in de Ontsluiting/Published fase
 
-- **Terug naar redactie** indien het artikel een gronding onderhoud door de redactie vereist en terug aangeboden moet worden ter controle. 
-- **Archiveren** indien het artikel niet meer relevant is in zijn huidige context
-- **Verwijderen**, mits de gebruiker de ùachtiging heeft van een administrator of ontwikkelaar. 
+- **Terug naar redactie** het artikel heeft een grondig onderhoud door de redactie nodig en moet terug ter controle worden aangeboden. 
+- **Archiveren** het artikel is niet meer relevant in zijn huidige context
+- **Verwijderen**, kan alleen door een administrator of ontwikkelaar. 
 
-#### Acties binnen de zelfde fase van het artikel
+#### Acties binnen dezelfde fase van het artikel
 
-- **Bewerken** het artikel kan worden aangepast door eindredacteurs bijvoorbeeld bij het verwerken van gebruikers meldingen. 
+- **Bewerken** het artikel kan door eindredacteurs worden aangepast, bijvoorbeeld bij het verwerken van gebruikersmeldingen. 
 
-### Permissies in de onsluitings fase
+### Permissies in de onsluitingsfase
 
-Het volgende permissie overzicht is van kracht op artikel transities binnen de publicatie status:
+Het volgende permissieoverzicht is van kracht op artikeltransities binnen de publicatiestatus:
 
 | Actie / Rol                              | Invoerder | Redacteur          | Eindredacteur      | Administrator      | Ontwikkelaar       | 
 | :--------------------------------------- | :-------: | :----------------: | :----------------: | :----------------: | :----------------: | 
@@ -212,11 +211,11 @@ Het volgende permissie overzicht is van kracht op artikel transities binnen de p
 
 ## Archief/Archived: artikel is niet langer meer actief 
 
-Wanneer een artikel zijn relevantie verliest, wordt het gearchiveerd en verdwijnt het uit de publieke omgeving. 
-Dit betekent niet dat het definitief verwijderd is, indien nodig kan het artikel nog worden hersteld. 
+Wanneer een artikel niet meer relevant is, wordt het gearchiveerd en verdwijnt het uit de publiek toegankelijke omgeving. 
+Dit betekent niet dat het definitief verwijderd is. Indien nodig kan het artikel nog worden hersteld. 
 
-In deze fase blijft de metadata ongewijzigd, behalve dat de publicatiestatus op `offline` word gezet.
-De eindredacteur en administrator kunnen bepalen of het artikel in het archief blijft, hersteld word of definitief verwijderd wordt. 
+In deze fase blijven de metadata ongewijzigd; alleen de publicatiestatus wordt op `offline` gezet.
+De eindredacteur en administrator kunnen bepalen of het artikel in het archief blijft, hersteld wordt of definitief verwijderd wordt. 
 
 ```mermaid 
 stateDiagram-v2
@@ -227,15 +226,15 @@ stateDiagram-v2
     ARCHIEF --> [*]: Verwijderen
 ```
 
-### Acties in de archief status: 
+### Acties in de archiefstatus: 
 
-- **Herstellen** indien het artikel ten onrechte gearchiveerd is. 
-- **Herwerken** indien het artikel gearchiveerd is maar terug willen publiceren nadat het een update heeft gekregen. 
-- **Verwijderen** indien het volledig uit het systeem moet verdwijnen.
+- **Herstellen** het artikel is ten onrechte gearchiveerd. 
+- **Herwerken** het artikel is gearchiveerd, maar kan weer gepubliceerd worden nadat het een update heeft gekregen. 
+- **Verwijderen** het artikel moet volledig uit het systeem verdwijnen.
 
-### Permissies in de archief status: 
+### Permissies in de archiefstatus: 
 
-Het volgende permissie overzicht is van kracht op artikel transitites binnen de archief status: 
+Het volgende permissieoverzicht is van kracht op artikeltransitites binnen de archiefstatus: 
 
 | Actie / Rol                        | Invoerder | Redacteur          | Eindredacteur      | Administrator      | Ontwikkelaar       | 
 | :--------------------------------- | :-------: | :----------------: | :----------------: | :----------------: | :----------------: | 
