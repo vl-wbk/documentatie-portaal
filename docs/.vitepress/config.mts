@@ -26,7 +26,7 @@ export default withMermaid({
     },
 
     editLink: {
-      pattern: 'https://github.com/vl-wbk/documentatie-portaal/edit/develop/docs/:path',
+      pattern: 'https://github.com/vl-wbk/documentatie-portaal/edit/main/docs/:path',
       text: 'Wijzig deze pagina op GitHub',
     },
 
