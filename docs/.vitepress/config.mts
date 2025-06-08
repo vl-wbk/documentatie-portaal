@@ -47,7 +47,8 @@ export default withMermaid({
           { text: 'Bronvermelding criteria', link: '/artikelen/richtlijn-bronvermelding' },
           { text: 'Levenscyclus', link: '/artikelen/levenscyclus' },
           { text: 'Labelsysteem', link: '/artikelen/labelsysteem' },
-          { text: 'Opname criteria', link: '/artikelen/opname-richtlijn' }
+          { text: 'Opname criteria', link: '/artikelen/opname-richtlijn' },
+          { text: 'Meldingen', link: '/artikelen/meldingen' }
         ]
       },
       {
