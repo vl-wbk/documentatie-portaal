@@ -48,7 +48,8 @@ export default withMermaid({
           { text: 'Levenscyclus', link: '/artikelen/levenscyclus' },
           { text: 'Labelsysteem', link: '/artikelen/labelsysteem' },
           { text: 'Opname criteria', link: '/artikelen/opname-richtlijn' },
-          { text: 'Meldingen', link: '/artikelen/meldingen' }
+          { text: 'Meldingen', link: '/artikelen/meldingen' }, 
+          { text: 'Suggesties', link: '/artikelen/suggesties' },
         ]
       },
       {
