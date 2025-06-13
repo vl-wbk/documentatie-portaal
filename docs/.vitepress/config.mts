@@ -33,7 +33,7 @@ export default withMermaid({
     nav: [
       { text: 'Contributing', link: 'https://github.com/vl-wbk/.github/blob/main/CONTRIBUTING.md', 'target': '_blank' },
       { text: 'Code of conduct', link: 'https://github.com/vl-wbk/.github/blob/main/CODE_OF_CONDUCT.md', 'target': '_blank' },
-      { text: 'LICENSE', link: '', 'target': '_blank' }
+      { text: 'LICENSE', link: 'https://github.com/vl-wbk/vl-woordenboek/blob/develop/LICENSE', 'target': '_blank' }
     ],
 
     sidebar: [
