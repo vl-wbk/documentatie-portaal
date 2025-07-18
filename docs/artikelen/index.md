@@ -54,3 +54,4 @@ In deze richtlijn leggen we uit op basis waarvan een woord, uitdrukking of betek
 ## Vragen of opmerkingen 
 
 Gebruikers kunnen bijdragen aan artikels, suggesties doen of fouten melden. Elk voorstel wordt geëvalueerd volgens de bovenstaande criteria en richtlijnen. Zo zorgen we samen voor een kwaliteitsvol, levend en representatief woordenboek van het Vlaamse Nederlands.
+
