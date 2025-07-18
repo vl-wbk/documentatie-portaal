@@ -44,6 +44,7 @@ export default withMermaid({
         collapsed: true, 
         link: '/artikelen',
         items: [
+          { text: 'Etymologie', link: '/artikelen/etymologie' },
           { text: 'Bronvermelding criteria', link: '/artikelen/richtlijn-bronvermelding' },
           { text: 'Levenscyclus', link: '/artikelen/levenscyclus' },
           { text: 'Labelsysteem', link: '/artikelen/labelsysteem' },
