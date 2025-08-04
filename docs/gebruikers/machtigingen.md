@@ -77,7 +77,7 @@ Bij vertrek of het buiten gebruik stellen van een service kunnen alle machtiging
 Deze implementatie van een geavanceerd RBAC_systeem is een strategische investering die aanzienlijke voordelen oplevert voor de langetermijnfunctionaliteit, veiligheid en beheersbaarheid van het platform:
 
 
-- **Ongeëvenaard Beheer en Automatisering:** RBVAC vereenvoudigt het beheer van toegangsrechten exponentieel. Met geautomatiseerde processen voor roltoewijzing kunnen duizenden actoren efficient worden beheerd,
+- **Ongeëvenaard Beheer en Automatisering:** RBAC vereenvoudigt het beheer van toegangsrechten exponentieel. Met geautomatiseerde processen voor roltoewijzing kunnen duizenden actoren efficient worden beheerd,
 wat de administratieve overhead drastisch vermindert en handmatige fouten elimineert. 
 
 - **Verhoogde beveiliging en compliance auditbaarheid:** Door het strikt afdwingen van het pincipe van **minste privilege** en **scheiding van taken** (waar kritieke taken verdeeld zijn over meerdere rollen om misruik te voorkomen), verhoogt RBAC de algemene beveiligingspostuur significant. Het systeem biedt gedetailleerde logboeken en auditmoelijkheden, cruciaal voor het voldoen van strenge compliane-eisen
