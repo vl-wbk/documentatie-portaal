@@ -57,7 +57,7 @@ export default withMermaid({
         text: 'Gebruikers',
         collapsed: true,
         items: [
-            { text: 'Machtigingen', link: '/gebruikers/machtigingen' },
+            { text: 'Rollen & Machtigingen', link: '/gebruikers/machtigingen' },
             { text: 'Account deactivatie', link: '/gebruikers/deactivatie' }
         ]
       },
