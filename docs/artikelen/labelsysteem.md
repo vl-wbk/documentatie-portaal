@@ -13,14 +13,22 @@ Ook de gebruikssituatie, zoals ironisch, aanstootgevend of kindertaal, kan gelab
 
 ## Wie mag wat? 
 
-Hieronder zie je wie welke rechten heeft binnen het beheer van het labelsysteem: 
+We maken gebruik van een role based access control systeem (RBAC). Alleen bevoegde personen kunnen labels aanmaken, bewerken of verwijderen. 
+Dit betekent dat alleen gebruikers die de juiste permissies hebben, labels kunnen aanmaken, bewerken of verwijderen. Hieronder vind je een overzicht van de bijhorende permissies die betrekking hebben op labels.
 
-|                   | Toevoegen          | Aanpassen          | Koppelen              | Ontkoppelen        | Verwijderen        | 
-| :---------------- | :----------------: | :----------------: | :-------------------: | :----------------: | :----------------: | 
-| **Redacteur**     | :x:                | :x:                | :heavy_check_mark:    | :heavy_check_mark: | :x:                |
-| **Eindredacteur** | :x:                | :x:                | :heavy_check_mark:    | :heavy_check_mark: | :x:                |
-| **Administrator** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:    | :heavy_check_mark: | :heavy_check_mark: |
-| **Ontwikkelaar**  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:    | :heavy_check_mark: | :heavy_check_mark: |
+Deze permissies hebben alleen betrekking op labels in de beheersconsole:
+
+| Permissie                      | Beschrijving                                                                 |
+|:-------------------------------|:-----------------------------------------------------------------------------|
+| **`Verwijderen van meerdere`** | Machtiging om labels in bulk te verwijderen.                                 |
+| **`Verwijderen`**              | Machtiging om een label te verwijderen in het woordenboek                    |
+| **`Loskoppelen`**              | Machtiging om een label te ontkoppelen van een artikel                       |
+| **`Bewerken`**                 | Machtiging om een label te bewerken                                          |
+| **`Koppelen`**                 | Machtiging om een label te koppelen aan een woordenboek artikel              |
+| **`Bekijken`**                 | Machtiging om de gegevens van een specifiek label te bekijken.               | 
+| **`Aanmaken`**                 | Machtiging om een label aan te maken                                         |
+| **`Bekijk alle`**              | Machtiging om het overzicht van labels te bekijken                           | 
+| **`Articles`**                 | Hoofdpermissie om toegang te krijgen tot de cluster die ook de labels bevat. |
 
 ## Hoe labels toevoegen aan een artikel? 
 
