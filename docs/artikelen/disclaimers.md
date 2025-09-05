@@ -53,9 +53,9 @@ Hieronder vind je de beschikbare opties en richtlijnen voor wanneer je ze kunt/m
  *Categorie: **Specialistisch***
 
  Gebruik deze disclaimer bij artikelen die betrekking hebben op wetgeving, juridische termen, rechten en plichten. 
- Dit benarukt dat de informatie geen vervanging is voor professioneel juridisch advies. 
+ Dit benadrukt dat de informatie geen vervanging is voor professioneel juridisch advies. 
 
- **Voorbeeld:** *autheursrecht, strafbaar feit, vennootschap.*
+ **Voorbeeld:** *auteursrecht, strafbaar feit, vennootschap.*
 
  ### Disclaimer voor gevoelige onderwerpen 
 
