@@ -26,14 +26,14 @@ export default withMermaid({
     },
 
     editLink: {
-      pattern: 'https://github.com/vl-wbk/documentatie-portaal/edit/develop/docs/:path',
+      pattern: 'https://github.com/vl-wbk/documentatie-portaal/edit/main/docs/:path',
       text: 'Wijzig deze pagina op GitHub',
     },
 
     nav: [
-      { text: 'Contributing', link: '', 'target': '_blank' },
-      { text: 'Code of conduct', link: '', 'target': '_blank' },
-      { text: 'LICENSE', link: '', 'target': '_blank' }
+      { text: 'Contributing', link: 'https://github.com/vl-wbk/.github/blob/main/CONTRIBUTING.md', 'target': '_blank' },
+      { text: 'Code of conduct', link: 'https://github.com/vl-wbk/.github/blob/main/CODE_OF_CONDUCT.md', 'target': '_blank' },
+      { text: 'LICENSE', link: 'https://github.com/vl-wbk/vl-woordenboek/blob/develop/LICENSE', 'target': '_blank' }
     ],
 
     sidebar: [
@@ -44,10 +44,13 @@ export default withMermaid({
         collapsed: true, 
         link: '/artikelen',
         items: [
+          { text: 'Rate limiting', link: '/artikelen/rate-limiting'},
           { text: 'Bronvermelding criteria', link: '/artikelen/richtlijn-bronvermelding' },
           { text: 'Levenscyclus', link: '/artikelen/levenscyclus' },
           { text: 'Labelsysteem', link: '/artikelen/labelsysteem' },
-          { text: 'Opname criteria', link: '/artikelen/opname-richtlijn' }
+          { text: 'Opname criteria', link: '/artikelen/opname-richtlijn' },
+          { text: 'Meldingen', link: '/artikelen/meldingen' }, 
+          { text: 'Suggesties', link: '/artikelen/suggesties' },
         ]
       },
       {
@@ -62,7 +65,7 @@ export default withMermaid({
         text: 'Developer documentatie',
         collapsed: true,
         items: [
-            { text: 'Featurebeheer', link: '/technical/feature-manager' },
+            { text: 'Featurebeheer', link: '/technical/feature-manager' }
         ]
       },
 
