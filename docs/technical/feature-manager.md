@@ -82,7 +82,7 @@ Zorg ervoor dat je de naamgeving en namespace consistent houdt om problemen te v
 
 ## Opruiming van de cache 
 
-Elke keer wanneer je een feature in- of uitschakelt, wordt de featurecache automatisch geleegd. Dit betekent dat de wijzigingen onmiddelijk van kracht worden en gebruikers de nieuwe status van de feature zien zonder dat ze de applicatie hoeven te herladen.
+Elke keer wanneer je een feature in- of uitschakelt, wordt de featurecache automatisch geleegd. Dit betekent dat de wijzigingen onmiddellijk van kracht worden en gebruikers de nieuwe status van de feature zien zonder dat ze de applicatie hoeven te herladen.
 
 ## Mogelijke fouten 
 
@@ -101,5 +101,5 @@ De features zijn opgebouwd met de [laravel/pennant](https://github.com/laravel/p
 ## Conclusie
 
 Met deze handleiding kun je eenvoudig je `feature:manager` command gebruiken om feature flags binnen je project te beheren. 
-Dit biedt je de flexibiliteit om functionaliteiten aan te passen op basis van gebruikersfeedback, testresultaten, en ondere organisatie behoeften. 
+Dit biedt je de flexibiliteit om functionaliteiten aan te passen op basis van gebruikersfeedback, testresultaten, en andere organisatorische behoeften. 
 Door effectief gebruik te maken van feature flags, kun je ontwikkeling van je applicatie versnellen en verbeteren.
