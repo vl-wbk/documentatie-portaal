@@ -61,7 +61,6 @@ export default withMermaid({
             { text: 'Account deactivatie', link: '/gebruikers/deactivatie' }
         ]
       },
-
       {
         text: 'Developer documentatie',
         collapsed: true,
@@ -71,10 +70,20 @@ export default withMermaid({
       },
 
       {
+        text: "Communicatie",
+        collapsed: true, 
+        link: '/communicatie',
+        items: [
+          //
+        ],
+      },
+
+      {
         text: 'Varia', 
         collapsed: true, 
         items: [
-          { text: 'Dataset releases', link: 'other/dataset-release-guideline'},
+          { text: 'Feedback module', link: 'other/feedback-module' },
+          { text: 'Dataset releases', link: 'other/dataset-release-guideline', },
         ]
       }
     ],
